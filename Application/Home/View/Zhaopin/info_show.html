@@ -1,0 +1,79 @@
+<extend name="Public:home_base"/>
+<block name="title">{$zp_one['title']}_<if condition="$zp_one['type_show'] eq 1">招聘招聘信息<else/>人才招聘信息</if></block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<include file="Public:Other_top_ad"/>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<h3>关于我们</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<a href="/zp/r0t0c0.html" <eq name="zp_one['type_show']" value="1"> class="on"</eq>>招聘信息</a>
+					<a href="/zp/r1t0c0.html" <neq name="zp_one['type_show']" value="1"> class="on"</neq>>求职信息</a>
+				</div>
+				<div class="cont">
+					<h3>联系信息</h3>
+					<p class="tel">{$user['phone']}</p>
+					<p class="lx">
+						{$user['phone']}<br />
+						{$user['qq']}<br />
+						{$user['weixin']}<br />
+						{$user['email']}<br />
+						{:get_diqu_name($user['province'])} - {:get_diqu_name($user['city'])}
+					</p>
+				</div>
+				<div class="news">
+					<h3>相关推荐</h3>
+					<ul>
+					<foreach name="zp_xgzytj" item="v">
+						<li><a href="/zp/{:idEncode($v['id'])}.html">{:getSubstr($v['title'],0,16)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3><if condition="$zp_one['type_show'] eq 1">招聘信息<else/>求职信息</if></h3>
+					<p>当前位置：首页 > <if condition="$zp_one['type_show'] eq 1">招聘信息<else/>求职信息</if></p>
+				</div>
+				<div class="jwcont">
+					<h1>{$zp_one['title']}</h1>
+					<p class="tt">点击次数：{$zp_one['browser']}次　　　　更新时间：{:word_time($zp_one['addtime'])}</p>
+					<div class="jwslist">
+						<div class="jws1">职位信息</div>
+						<div class="jws2">
+							<ul>
+								<li><span>职位类型：</span><a href="/zp/r0t{$zp_one['classid']}c0.html">{$name_classid}</a>-<a href="/zp/r0t{$zp_one['cid']}c0.html">{$name_cid}</a></li>
+								<li><span>兼职地区：</span><a href="/zp/r0t0c{$zp_one['province']}.html">{$name_province}</a>-<a href="/zp/r0t0c{$zp_one['city']}.html">{$name_city}</a></li>
+								<li><span>工作经验：</span>{:C('EXPERIENCE_TYPE')[$zp_one['experience']]}</li>
+								<li><span>学历：</span>{:C('DEGREE_TYPE')[$zp_one['degree']]}</li>
+								<if condition="$zp_one['type_show'] eq 1">
+								<li><span>招聘职位：</span>{$zp_one['job']}</li>
+								<else/>
+								<li><span>意向职位：</span>{$zp_one['job']}</li>
+								</if>
+								<li><span>注册情况：</span>{:C('REGTYPE')[$zp_one['regtype']]}</li>
+								<li><span>职称要求：</span>{:C('ZCYQ_TYPE')[$zp_one['academic_title']]}</li>
+								<li><span>价格：</span>{:C('PRICE_TYPE')[$zp_one['price']]}</li>
+								<li><span>用途：</span>{:C('ZSYT_TYPE')[$zp_one['purpose']]}</li>
+							</ul>
+
+						</div>
+						<div class="jws1">详细说明</div>
+						<div class="jws3"><?php echo str_replace("\n","<br>",$zp_one['content']);?></div>
+						<div class="jws1">联系信息</div>
+						<div class="jws4">
+							<li><span>发布者：</span>{$user['person']}</li>
+							<li><span>电话：</span>{$user['phone']}</li>
+							<li><span>QQ：</span>{$user['qq']}</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</block>
+<block name="js"></block>

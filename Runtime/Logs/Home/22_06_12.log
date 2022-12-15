@@ -1,0 +1,63 @@
+[ 2022-06-12T05:36:52+08:00 ] 45.33.152.247 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('This notice is to bring to your attention that the Free 1-Year subscription of the SSL certificate (HTTPS) on your website is no longer valid. This means that hackers can now snoop in on your website easily. Online viruses, bad actors or competitors can steal your sensitive exclusive information as well as your customers\' registration data for malicious purposes. 
+
+Further, an invalid or expired SSL certificate also breaches GDPR (General Data Protection Regulation; effective May 25, 2018). Article 32 of GDPR requires that regulated information must be safegaurded with apt technical and organizational measures, including concealment of confidential data and the ability to ensure the ongoing confidentiality of systems and services. 
+
+Because of this, Google has also started to mark all connections to your website as &quot;insecure&quot;. You can check this by looking at the security status (to the left of the web address) of your website in a web browser. You will observe that there is no Green PADLOCK visible next to your web address. 
+
+To resolve this, you are required to re-deploy an SSL certificate on your website now: https://esslcerts.com/hxhv5.com/a/1654983408/v0 
+
+This will conceal information and secure all traffic on your website. The digital Security certificate will be sent to you within minutes after verification. 
+
+WARNING: Your website may stop performing properly within 72 hours if it is marked as a non-secure website, due to hosting insecure content. For more information see part 7.2P of our service level agreement. We can not be held resposible for any financial or technical losses resulting from the same. 
+
+Secure your website now: https://esslcerts.com/hxhv5.com/a/1654983408/v0','SSL Security','302-645-7400','留言','1654983412')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('This notice is to bring to your attention that the Free 1-Year subscription of the SSL certificate (HTTPS) on your website is no longer valid. This means that hackers can now snoop in on your website easily. Online viruses, bad actors or competitors can steal your sensitive exclusive information as well as your customers\' registration data for malicious purposes. 
+
+Further, an invalid or expired SSL certificate also breaches GDPR (General Data Protection Regulation; effective May 25, 2018). Article 32 of GDPR requires that regulated information must be safegaurded with apt technical and organizational measures, including concealment of confidential data and the ability to ensure the ongoing confidentiality of systems and services. 
+
+Because of this, Google has also started to mark all connections to your website as &quot;insecure&quot;. You can check this by looking at the security status (to the left of the web address) of your website in a web browser. You will observe that there is no Green PADLOCK visible next to your web address. 
+
+To resolve this, you are required to re-deploy an SSL certificate on your website now: https://esslcerts.com/hxhv5.com/a/1654983408/v0 
+
+This will conceal information and secure all traffic on your website. The digital Security certificate will be sent to you within minutes after verification. 
+
+WARNING: Your website may stop performing properly within 72 hours if it is marked as a non-secure website, due to hosting insecure content. For more information see part 7.2P of our service level agreement. We can not be held resposible for any financial or technical losses resulting from the same. 
+
+Secure your website now: https://esslcerts.com/hxhv5.com/a/1654983408/v0','SSL Security','302-645-7400','留言','1654983412')
+
+[ 2022-06-12T07:16:12+08:00 ] 185.83.146.154 /.aws/credentials
+ERR: 无法加载控制器:.aws
+
+[ 2022-06-12T09:11:30+08:00 ] 106.11.152.20 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T10:40:34+08:00 ] 65.108.195.212 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T11:59:28+08:00 ] 40.77.167.102 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T13:57:09+08:00 ] 54.36.148.212 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T16:07:21+08:00 ] 135.181.7.82 /wp-login.php
+ERR: 无法加载控制器:Wp-login
+
+[ 2022-06-12T17:47:26+08:00 ] 54.36.148.180 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T18:55:12+08:00 ] 77.111.247.186 /plugins/installer/webinstaller/webinstaller.xml
+ERR: 无法加载控制器:Plugins
+
+[ 2022-06-12T20:06:06+08:00 ] 116.179.33.140 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T20:06:06+08:00 ] 116.179.33.12 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-06-12T20:06:20+08:00 ] 116.179.33.210 /robots.txt
+ERR: 无法加载控制器:Robots
+

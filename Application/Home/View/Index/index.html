@@ -1,0 +1,116 @@
+<extend name="Public:home_base"/>
+<block name="title">首页</block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<if condition="$home_index_top_ad eq true">
+		<div class="layui-carousel" id="inbanner">
+			<div carousel-item>
+			<foreach name="home_index_top_ad" item="v">
+				<div style="background: url({$v['ad_code']}) no-repeat center top;" <eq name="key" value="0">class="layui-this"</eq>></div>
+			</foreach>
+			</div>
+		</div>
+		</if>
+		<if condition="$home_index_fwly eq true">
+		<div class="in_A1">
+			<p class="t1">服务领域</p>
+		    <p class="t2">{:systemCache('web_info.store_name')}是一支懂专业、懂服务、懂企业的优秀团队</p>
+		    <div class="clearfloat"></div>
+		    <div class="xm_box">
+		        <ul>
+				<foreach name="home_index_fwly" item="v">
+		            <li>
+		                <a href="/help/{$v['url']}.html"><img src="<if condition="$v['picname'] neq null">{$v['picname']}<else/>/Public/img/in_a1_tu4.jpg</if>"/></a>
+		                <h3>{$v['title']}</h3>
+		                <p style="overflow: hidden;text-overflow: ellipsis;">{$v['shortcontent']}</p>
+		            </li>
+				</foreach>
+		        </ul>
+		        <a href="javascript:void(0)" class="prev"></a>
+		        <a href="javascript:void(0)" class="next"></a>
+		    </div>
+		    <div class="clearfloat"></div>
+		</div>
+		</if>
+		<div class="in_A2">
+			<div class="tit">最新招聘<span><a href="/zp/r0t0c0.html" target="_blank">更看更多>></a></span></div>
+			<ul class="list">
+			<foreach name="home_index_recruitment_zp" item="v">
+				<li><a href="/zp/{:idEncode($v['id'])}.html" target="_blank"><i class="layui-icon">&#xe623;</i>{:getSubstr($v['title'],0,18)}<span>{$v['addtime']|date="Y-m-d",###}</span></a></li>
+			</foreach>
+			</ul>
+			<div class="tit">人才证书库<span><a href="/resume/r0t0c0.html" target="_blank">更看更多>></a></span></div>
+			<ul class="list">
+			<foreach name="home_index_jzjlk" item="v">
+				<li><a href="/resume/{:idEncode($v['id'])}.html"><font>【{$v['person']}】</font>{:get_major_name($v['classid'])} - {:get_major_name($v['cid'])} / {:get_diqu_name($v['province'])}<span>{$v['addtime']|date="Y-m-d",###}</span></a></li>
+			</foreach>
+			</ul>
+			<div class="tit">人才求职<span><a href="/zp/r1t0c0.html" target="_blank">更看更多>></a></span></div>
+			<ul class="list">
+			<foreach name="home_index_recruitment_qz" item="v">
+				<li><a href="/zp/{:idEncode($v['id'])}.html" target="_blank"><i class="layui-icon">&#xe623;</i>{:getSubstr($v['title'],0,18)}<span>{$v['addtime']|date="Y-m-d",###}</span></a></li>
+			</foreach>
+			</ul>
+			<div class="tit">资质代办<span><a href="/zizhi/r0t0c0.html" target="_blank">更看更多>></a></span></div>
+			<ul class="list">
+			<foreach name="home_index_zizhi" item="v">
+				<li><a href="/zizhi/{:idEncode($v['id'])}.html" target="_blank"><i class="layui-icon">&#xe623;</i>{:getSubstr($v['title'],0,18)}<span>{$v['addtime']|date="Y-m-d",###}</span></a></li>
+			</foreach>
+			</ul>
+			<div class="clearfloat"></div>
+		</div>
+		<if condition="$index_menu['0']['show'] neq 0 or $index_menu['1']['show'] neq 0 or $index_menu['2']['show'] neq 0 or $index_menu['3']['show'] neq 0">
+		<div class="in_a4_t">招聘资讯<span>/ 让您对招聘行业更了解</span></div>
+		<div class="in_a4">
+			<div class="w12">
+			<eq name="index_menu['0']['show']" value="1">
+				<div class="list">
+					<h3>{:C('NEWS_TYPE')[$index_menu['0']['menu_name']][0]}</h3>
+					<div class="tu"><a href="{$index_menu['0']['url']}"><img src="{$index_menu['0']['pic']}"></a></div>
+					<ul>
+					<foreach name="home_index_news_1" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</eq>
+			<eq name="index_menu['1']['show']" value="1">
+				<div class="list">
+					<h3>{:C('NEWS_TYPE')[$index_menu['1']['menu_name']][0]}</h3>
+					<div class="tu"><a href="{$index_menu['1']['url']}"><img src="{$index_menu['1']['pic']}"></a></div>
+					<ul>
+					<foreach name="home_index_news_2" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</eq>
+			<eq name="index_menu['2']['show']" value="1">
+				<div class="list">
+					<h3>{:C('NEWS_TYPE')[$index_menu['2']['menu_name']][0]}</h3>
+					<div class="tu"><a href="{$index_menu['2']['url']}"><img src="{$index_menu['2']['pic']}"></a></div>
+					<ul>
+					<foreach name="home_index_news_3" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</eq>
+			<eq name="index_menu['3']['show']" value="1">
+				<div class="list" style="margin-right: 0;">
+					<h3>{:C('NEWS_TYPE')[$index_menu['3']['menu_name']][0]}</h3>
+					<div class="tu"><a href="{$index_menu['3']['url']}"><img src="{$index_menu['3']['pic']}"></a></div>
+					<ul>
+					<foreach name="home_index_news_4" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</eq>
+			</div>
+		</div>
+		</if>
+</block>
+<block name="js"></block>

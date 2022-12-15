@@ -1,0 +1,82 @@
+[ 2021-09-23T02:39:37+08:00 ] 203.208.60.50 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T08:51:09+08:00 ] 77.222.117.245 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Free weight loss 15 kg for 1 month! --&gt;  http://weightlosstrue.freecluster.eu/ 
+&lt;a href=&quot;http://weightlosstrue.freecluster.eu/?lol=1&quot;&gt;Free weight loss&lt;/a&gt; &lt;a href=http://weightlosstrue.freecluster.eu/?lol=1&gt;Detail&lt;/a&gt;:  &lt;a href=http://weightlosstrue.freecluster.eu/?lol=1&gt;Free weight loss&lt;/a&gt; 
+ 
+Diet and weight loss 
+ 
+Studies have shown that just about any diet will result in weight loss, if it’s one that someone can follow.1,2 Esteemed Yale physician and nutrition expert David Katz examined over 58 popular diets and found that the most successful in terms of both weight loss and nutrition consist of “real food.” By that he means plants, whole grains, nuts and seeds, as well as meat (ideally, from animals that ate plants). Basically, foods closer to nature. The other key is minimizing processed foods, including sugars and flours.3 
+ 
+Without realizing it, I followed Katz’s advice: I ate mostly fruits and vegetables, nuts, seeds, and dairy. I occasionally had whole grains like quinoa or farro, even rice or corn chips. And, of course, an occasional treat. But I had sworn off sugars and flours, for the most part. 
+Behavior change and weight loss 
+ 
+It’s hard to keep track of how much we eat. But a lot of research shows that when we keep track of intake, we eat less. This is called self-monitoring, and why writing down what I ate and weighed helped me.4,5,6 There are so many ways to do this nowadays: from the old-school paper-and-pencil method, to apps like MyFitnessPal, or the Weight Watchers points system.7 
+ 
+Another key approach: forgive your failures. Studies show that people who “mess up” their diet plan and then “give up” end up gaining, while people who forgive themselves and move on continue to lose. It’s called self-acceptance.8,9 Look, we’re human. Birthdays, office parties, weddings, random movie nights: they happen, and we celebrate by having the amazing chocolate cake, or Betsy’s famous buffalo chicken dip, waaaay too much champagne, or buttered popcorn. Expect this, enjoy, and then move on. 
+Exercise and weight loss 
+ 
+Most major weight loss is followed by weight gain, as people revert to their old habits. But, some folks manage to keep it off. How do they do it? Researchers have found that maintaining a healthy diet, ongoing self-monitoring, plenty of self-acceptance, as well as a high level of physical activity are all associated with keeping the pounds off.10 
+ 
+When I feel like I’m slipping, I start logging again. Nowadays, I use an online fitness app on my phone to more easily keep track of my daily food intake. Red wine and dark chocolate are always in stock in our house, and that’s OK. Exercise is important, too, but in my book, any and all physical activity counts. Two or three workouts a week help me maintain muscle tone and cardiovascular fitness. If I can’t get to the gym, I run. If I can’t run, I do something at home, like five minutes of in-place kickboxing moves, or dancing around the living room like a crazy person with my kids. I take the stairs wherever I am as often as possible. I use a carry basket at the grocery store, and switch from arm to arm while I shop: biceps curls! Hey, it all counts. 
+Staying at a healthy weight for life 
+ 
+The old adage is “eat less, exercise more,” and this is still true, to some extent. But human beings are psychologically and sociologically complex creatures, and that adage is a lot harder to follow than it sounds. For average adults who do not have contributing medical or psychological issues, a nutritious plant-based diet low in processed foods and carbohydrates, consistent self-monitoring of intake and progress, forgiving oneself when expected lapses occur, all combined with regular physical activity, can result in weight loss for life.','Bennyrog','82668313781','??','1632358269')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Free weight loss 15 kg for 1 month! --&gt;  http://weightlosstrue.freecluster.eu/ 
+&lt;a href=&quot;http://weightlosstrue.freecluster.eu/?lol=1&quot;&gt;Free weight loss&lt;/a&gt; &lt;a href=http://weightlosstrue.freecluster.eu/?lol=1&gt;Detail&lt;/a&gt;:  &lt;a href=http://weightlosstrue.freecluster.eu/?lol=1&gt;Free weight loss&lt;/a&gt; 
+ 
+Diet and weight loss 
+ 
+Studies have shown that just about any diet will result in weight loss, if it’s one that someone can follow.1,2 Esteemed Yale physician and nutrition expert David Katz examined over 58 popular diets and found that the most successful in terms of both weight loss and nutrition consist of “real food.” By that he means plants, whole grains, nuts and seeds, as well as meat (ideally, from animals that ate plants). Basically, foods closer to nature. The other key is minimizing processed foods, including sugars and flours.3 
+ 
+Without realizing it, I followed Katz’s advice: I ate mostly fruits and vegetables, nuts, seeds, and dairy. I occasionally had whole grains like quinoa or farro, even rice or corn chips. And, of course, an occasional treat. But I had sworn off sugars and flours, for the most part. 
+Behavior change and weight loss 
+ 
+It’s hard to keep track of how much we eat. But a lot of research shows that when we keep track of intake, we eat less. This is called self-monitoring, and why writing down what I ate and weighed helped me.4,5,6 There are so many ways to do this nowadays: from the old-school paper-and-pencil method, to apps like MyFitnessPal, or the Weight Watchers points system.7 
+ 
+Another key approach: forgive your failures. Studies show that people who “mess up” their diet plan and then “give up” end up gaining, while people who forgive themselves and move on continue to lose. It’s called self-acceptance.8,9 Look, we’re human. Birthdays, office parties, weddings, random movie nights: they happen, and we celebrate by having the amazing chocolate cake, or Betsy’s famous buffalo chicken dip, waaaay too much champagne, or buttered popcorn. Expect this, enjoy, and then move on. 
+Exercise and weight loss 
+ 
+Most major weight loss is followed by weight gain, as people revert to their old habits. But, some folks manage to keep it off. How do they do it? Researchers have found that maintaining a healthy diet, ongoing self-monitoring, plenty of self-acceptance, as well as a high level of physical activity are all associated with keeping the pounds off.10 
+ 
+When I feel like I’m slipping, I start logging again. Nowadays, I use an online fitness app on my phone to more easily keep track of my daily food intake. Red wine and dark chocolate are always in stock in our house, and that’s OK. Exercise is important, too, but in my book, any and all physical activity counts. Two or three workouts a week help me maintain muscle tone and cardiovascular fitness. If I can’t get to the gym, I run. If I can’t run, I do something at home, like five minutes of in-place kickboxing moves, or dancing around the living room like a crazy person with my kids. I take the stairs wherever I am as often as possible. I use a carry basket at the grocery store, and switch from arm to arm while I shop: biceps curls! Hey, it all counts. 
+Staying at a healthy weight for life 
+ 
+The old adage is “eat less, exercise more,” and this is still true, to some extent. But human beings are psychologically and sociologically complex creatures, and that adage is a lot harder to follow than it sounds. For average adults who do not have contributing medical or psychological issues, a nutritious plant-based diet low in processed foods and carbohydrates, consistent self-monitoring of intake and progress, forgiving oneself when expected lapses occur, all combined with regular physical activity, can result in weight loss for life.','Bennyrog','82668313781','??','1632358269')
+
+[ 2021-09-23T09:03:38+08:00 ] 54.36.148.111 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T09:40:55+08:00 ] 93.158.91.231 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T09:40:56+08:00 ] 93.158.91.214 /humans.txt
+ERR: 无法加载控制器:Humans
+
+[ 2021-09-23T09:40:56+08:00 ] 93.158.91.231 /ads.txt
+ERR: 无法加载控制器:Ads
+
+[ 2021-09-23T10:22:49+08:00 ] 101.132.131.7 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-09-23T12:22:59+08:00 ] 51.89.228.207 /ads.txt
+ERR: 无法加载控制器:Ads
+
+[ 2021-09-23T13:55:20+08:00 ] 54.36.148.67 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T16:33:35+08:00 ] 203.208.60.124 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T18:11:00+08:00 ] 185.191.171.15 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T20:05:48+08:00 ] 185.191.171.9 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-09-23T21:32:10+08:00 ] 220.181.51.113 /robots.txt
+ERR: 无法加载控制器:Robots
+

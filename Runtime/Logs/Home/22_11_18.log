@@ -1,0 +1,139 @@
+[ 2022-11-18T00:19:38+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T00:19:40+08:00 ] 162.55.85.226 /sitemap
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-11-18T00:20:25+08:00 ] 162.55.85.226 /sitemap.txt
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-11-18T01:13:15+08:00 ] 124.70.50.110 /DScms/login.php?gotopage=%2FDScms%2Findex.php
+ERR: 无法加载控制器:DScms
+
+[ 2022-11-18T01:13:20+08:00 ] 124.70.50.110 /includes/modules/payment/bank.php
+ERR: 无法加载控制器:Includes
+
+[ 2022-11-18T01:13:22+08:00 ] 124.70.50.110 /data/flashdata/pinkfocus/data.js
+ERR: 无法加载控制器:Data
+
+[ 2022-11-18T01:13:22+08:00 ] 124.70.50.110 /mybak/index.php
+ERR: 无法加载控制器:Mybak
+
+[ 2022-11-18T01:13:24+08:00 ] 124.70.50.110 /wanhu/login.php
+ERR: 无法加载控制器:Wanhu
+
+[ 2022-11-18T01:13:24+08:00 ] 124.70.50.110 /xinhuo/upbanners.php
+ERR: 无法加载控制器:Xinhuo
+
+[ 2022-11-18T01:13:24+08:00 ] 124.70.50.110 /web_manage/index.php
+ERR: 无法加载控制器:Web_manage
+
+[ 2022-11-18T01:55:08+08:00 ] 37.19.223.208 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Greetings 
+ 
+This is Mike Wood
+ 
+Let me present you our latest research results from our constant SEO feedbacks that we have from our plans: 
+ 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+The new Semrush Backlinks, which will make your hxhv5.com SEO trend have an immediate push. 
+The method is actually very simple, we are building links from domains that have a high number of keywords ranking for them.  
+ 
+Forget about the SEO metrics or any other factors that so many tools try to teach you that is good. The most valuable link is the one that comes from a website that has a healthy trend and lots of ranking keywords. 
+We thought about that, so we have built this plan for you 
+ 
+Check in detail here: 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+Cheap and effective 
+ 
+Try it anytime soon 
+ 
+ 
+Regards 
+ 
+Mike Wood
+ 
+mike@strictlydigital.net','Mike Wood','88168266823','??','1668707708')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Greetings 
+ 
+This is Mike Wood
+ 
+Let me present you our latest research results from our constant SEO feedbacks that we have from our plans: 
+ 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+The new Semrush Backlinks, which will make your hxhv5.com SEO trend have an immediate push. 
+The method is actually very simple, we are building links from domains that have a high number of keywords ranking for them.  
+ 
+Forget about the SEO metrics or any other factors that so many tools try to teach you that is good. The most valuable link is the one that comes from a website that has a healthy trend and lots of ranking keywords. 
+We thought about that, so we have built this plan for you 
+ 
+Check in detail here: 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+Cheap and effective 
+ 
+Try it anytime soon 
+ 
+ 
+Regards 
+ 
+Mike Wood
+ 
+mike@strictlydigital.net','Mike Wood','88168266823','??','1668707708')
+
+[ 2022-11-18T02:04:45+08:00 ] 122.114.58.145 /beifen/phome.php
+ERR: 无法加载控制器:Beifen
+
+[ 2022-11-18T05:21:56+08:00 ] 54.193.211.111 /.git/config
+ERR: 无法加载控制器:.git
+
+[ 2022-11-18T05:21:57+08:00 ] 54.193.211.111 /.git/config
+ERR: 无法加载控制器:.git
+
+[ 2022-11-18T05:21:58+08:00 ] 54.193.211.111 /.git/config
+ERR: 无法加载控制器:.git
+
+[ 2022-11-18T05:21:58+08:00 ] 54.193.211.111 /.git/config
+ERR: 无法加载控制器:.git
+
+[ 2022-11-18T09:55:51+08:00 ] 3.238.30.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T10:02:46+08:00 ] 3.238.30.152 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T10:05:40+08:00 ] 45.127.126.91 /beifen/upload/phome.php
+ERR: 无法加载控制器:Beifen
+
+[ 2022-11-18T11:52:35+08:00 ] 194.38.20.161 /sites/all/libraries/plupload/examples/upload.php
+ERR: 无法加载控制器:Sites
+
+[ 2022-11-18T15:20:55+08:00 ] 45.120.4.50 /e/data/js/ajax.js
+ERR: 无法加载控制器:E
+
+[ 2022-11-18T17:11:11+08:00 ] 3.129.64.38 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T17:59:42+08:00 ] 220.181.51.85 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T17:59:42+08:00 ] 220.181.51.92 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T18:16:29+08:00 ] 20.247.113.18 /Public/lib/webuploader/0.1.5/server/preview.php
+ERR: 无法加载控制器:Public
+
+[ 2022-11-18T19:17:36+08:00 ] 20.247.113.18 /static/admin/lib/webuploader/0.1.5/server/preview.php
+ERR: 无法加载控制器:Static
+
+[ 2022-11-18T22:03:48+08:00 ] 209.99.152.210 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-11-18T22:47:30+08:00 ] 87.249.43.162 /wp-commentin.php
+ERR: 无法加载控制器:Wp-commentin
+

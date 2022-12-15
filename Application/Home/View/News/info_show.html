@@ -1,0 +1,53 @@
+<extend name="Public:home_base"/>
+<block name="title">{$one['title']}_{:C('NEWS_TYPE')[$one['type']][0]}</block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<include file="Public:Other_top_ad"/>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<h3>{:C('NEWS_TYPE')[$one['type']][0]}</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<for start="1" end="C('NEWS_TYPE')[count]">
+						<a href="/news/{:C('NEWS_TYPE')[$i][1]}.html" <if condition="$one['type'] eq $i">class="on"</if>>{:C('NEWS_TYPE')[$i][0]}</a>
+					</for>
+				</div>
+				<div class="news">
+					<h3>新闻动态</h3>
+					<ul>
+					<foreach name="about_news" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3>{:getSubstr($one['title'],0,16)}</h3>
+					<p>当前位置：首页 > 资讯 > {:C('NEWS_TYPE')[$one['type']][0]}</p>
+				</div>
+				<div class="tushow">
+					<h1>{$one['title']}</h1>
+					<p class="tt">点击次数：{$one['browser']}次　　　　更新时间：{$one['addtime']}</p>
+					<div class="text">{$one['content']}</div>
+					<div class="next">
+						<gt name="prev['news_id']" value="0">
+						<p> 上一篇：<a href="/info/{:idEncode($prev['news_id'])}.html">{$prev['title']}</a> </p>
+						<else/>
+						<p> 上一篇：没有了 </p>
+						</gt>
+						<gt name="next['news_id']" value="0">
+						<p> 下一篇：<a href="/info/{:idEncode($next['news_id'])}.html">{$next['title']}</a> </p>
+						<else/>
+						<p> 下一篇：没有了 </p>
+						</gt>
+				   </div>
+				</div>
+			</div>
+		</div>
+</block>
+<block name="js"></block>

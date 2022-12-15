@@ -1,0 +1,49 @@
+<extend name="Public:home_base"/>
+<block name="title">{:C('GET_NEWS_TYPE')[I('get.type')][0]}</block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<include file="Public:Other_top_ad"/>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<h3>资讯</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<for start="1" end="C('NEWS_TYPE')[count]">
+						<a href="/news/{:C('NEWS_TYPE')[$i][1]}.html" <if condition="$Think.get.type eq C('NEWS_TYPE')[$i][1]">class="on"</if>>{:C('NEWS_TYPE')[$i][0]}</a>
+					</for>
+				</div>
+				<div class="news">
+					<h3>新闻动态</h3>
+					<ul>
+					<foreach name="about_news" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3>{:C('GET_NEWS_TYPE')[I('get.type')][0]}</h3>
+					<p>当前位置：首页 > 资讯 > {:C('GET_NEWS_TYPE')[I('get.type')][0]}</p>
+				</div>
+				<div class="news_list">
+			    	<ul>
+					<foreach name='data' item='v'><php>$strtotime = strtotime($v['addtime'])</php>
+			        	<li>
+			            	<h3><a href="/info/{:idEncode($v['news_id'])}.html">{$v['title']}</a></h3>
+			                <p><?php echo mb_substr(clear_all(htmlspecialchars_decode($v['content'])),0,100,'utf-8');?></p>
+			                <span>{$strtotime|date="Y-m-d",###}</span>
+			                <a href="/info/{:idEncode($v['news_id'])}.html" class="right">+ 查看</a></span>
+			        	</li>
+					</foreach>
+			        </ul>
+					<div class="page">{$page}</div>
+				</div>
+			</div>
+		</div>
+</block>
+<block name="js"></block>

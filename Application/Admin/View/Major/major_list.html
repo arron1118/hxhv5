@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>文章列表--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/Public/admin/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_tnyc012u2rlwstt9.css" media="all" />
+	<link rel="stylesheet" href="/Public/admin/css/news.css" media="all" />
+</head>
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote news_search">
+		<div class="layui-inline">
+			<div class="layui-form-mid layui-word-aux">
+				<a class="layui-btn <if condition="($Think.get.range eq 0) or ($Think.get.range eq null)">layui-btn-warm</if>" href="{:U('Major/major_list',array('range'=>0))}">证书专业分类</a>
+			</div>
+		</div>
+		<div class="layui-inline">
+			<a class="layui-btn layui-btn-normal Add_btn"><if condition="($Think.get.range eq 0) or ($Think.get.range eq null)">添加证书专业分类<else/>添加资质类别分类</if></a>
+			
+		</div>
+	</blockquote>
+	<div class="layui-form news_list">
+	<div class="layui-collapse" lay-accordion>
+		<foreach name="data" item="v">
+			<div class="layui-colla-item">
+				<h2 class="layui-colla-title"><strong>{$v['title']}</strong></h2>
+				<div class="layui-colla-content">
+					<table class="layui-table">
+						<colgroup>
+							<col width="3%">
+							<col width="9%">
+							<col width="15%">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th style="text-align:left;">菜单名</th>
+								<th>操作</th>
+							</tr> 
+						</thead>
+						<tbody class="news_content">
+							<php>$major = M('major');$data2 = $major->where('parentid=%d',$v['id'])->order('id')->field("id,title")->select();</php>
+							<tr>
+								<td align="center">{$v['id']}</td>
+								<td align="left"><strong>{$v['title']}</strong>
+								<a class="layui-btn layui-btn-normal layui-btn-mini add_child" style="float:right;" href="javascript:;" navId="{$v['id']}"><i class="layui-icon">&#xe608;</i>添加子菜单</a>
+								</td>
+								<td>
+								<a class="layui-btn layui-btn-mini edit" navId="{$v['id']}"><i class="iconfont icon-edit"></i> 编辑</a>
+								<a class="layui-btn layui-btn-danger layui-btn-mini del"  navId="{$v['id']}" ><i class="layui-icon"></i> 删除</a>
+								</td>
+							</tr>
+							<foreach name="data2" item="v2">
+							<tr>
+								<td align="center">{$v2['id']}</td>
+								<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├{$v2['title']}</td>
+								<td>
+								<a class="layui-btn layui-btn-mini edit" navId="{$v2['id']}"><i class="iconfont icon-edit"></i> 编辑</a>
+								<a class="layui-btn layui-btn-danger layui-btn-mini del"  navId="{$v2['id']}" ><i class="layui-icon"></i> 删除</a>
+								</td>
+							</tr>
+							</foreach>
+						
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</foreach>
+	</div>
+	</div>
+	<div id="page"></div>
+	<script type="text/javascript" src="/Public/admin/layui/layui.js"></script>
+	<script type="text/javascript">
+layui.config({
+	base : "/Public/admin/js/"
+}).use(['form','layer','jquery','laypage','element'],function(){
+	var form = layui.form(),
+		layer = parent.layer === undefined ? layui.layer : parent.layer,
+		laypage = layui.laypage,
+		element = layui.element,
+		$ = layui.jquery;
+
+
+	//添加菜单
+	//改变窗口大小时，重置弹窗的高度，防止超出可视区域（如F12调出debug的操作）
+	$(window).one("resize",function(){
+		$(".Add_btn").click(function(){
+			var index = layui.layer.open({
+				title : "<if condition="($Think.get.range eq 0) or ($Think.get.range eq null)">添加证书专业分类<else/>添加资质类别分类</if>",
+				type : 2,
+				content : "{:U('Admin/Major/add',array('range'=>I('get.range')))}",
+				success : function(layero, index){
+					setTimeout(function(){
+						layui.layer.tips('点击此处返回文章列表', '.layui-layer-setwin .layui-layer-close', {
+							tips: 3
+						});
+					},500)
+				}
+			})			
+			layui.layer.full(index);
+		})
+	}).resize();
+
+	//添加子菜单
+	//改变窗口大小时，重置弹窗的高度，防止超出可视区域（如F12调出debug的操作）
+	$(window).one("resize",function(){
+		$(".add_child").click(function(){
+			var navId=$(this).attr('navId');
+			var index = layui.layer.open({
+				title : "添加子菜单",
+				type : 2,
+				content : "/index.php/Admin/Major/add/parentid/"+navId,
+				success : function(layero, index){
+					setTimeout(function(){
+						layui.layer.tips('点击此处返回文章列表', '.layui-layer-setwin .layui-layer-close', {
+							tips: 3
+						});
+					},500)
+				}
+			})			
+			layui.layer.full(index);
+		})
+	}).resize();
+
+	// 编辑 操作
+	$(window).one("resize",function(){
+		$(".edit").click(function(){
+			var navId=$(this).attr('navId');
+			var navName=$(this).attr('navName');
+			var index = layui.layer.open({
+				title : "编辑",
+				type : 2,
+				content : "/index.php/Admin/Major/edit/id/"+navId,
+				success : function(layero, index){
+					setTimeout(function(){
+						layui.layer.tips('点击此处返回文章列表', '.layui-layer-setwin .layui-layer-close', {
+							tips: 3
+						});
+					},500)
+				}
+			})			
+			layui.layer.full(index);
+		})
+	}).resize();
+
+	$("body").on("click",".del",function(){  //删除
+		var navId=$(this).attr('navId');
+		layer.confirm('确定删除此信息？',{icon:3, title:'提示信息'},function(data){
+				var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+				setTimeout(function(){
+					$.get("/index.php/Admin/Major/delete/id/"+navId,function(data){
+						top.layer.close(index);
+						top.layer.msg(data);
+						//刷新当前页面
+						window.location.reload();
+					})
+				},1000);
+		});
+	})
+	
+	
+})
+
+	</script>
+</body>
+</html>

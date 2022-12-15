@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family: "宋体"; font-size: 12px; color: #666666; background-color: #f3f3f3; margin: 0px; padding: 0px; }
+a{outline:none; huerreson:expression(onfocus=function(){this.blur()}); }
+a:link { color: #666666; text-decoration: none; outline:none}
+a:visited { text-decoration: none; color: #666666;}
+a:hover { text-decoration: none; color:#FF0000; text-decoration:underline;}
+a:active { text-decoration: none; color: #666666;}
+img, a img, form, p{ border:none; padding:0px; margin:0px;}
+select{ overflow: hidden;margin: -1px;padding: 3px;border: solid 1px #ddd;}
+li{
+    list-style: none;
+}
+h1{
+    font-size: 16px;
+    font-weight: normal;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background: #ffffff;
+}
+.fl{
+    float: left;
+    _display: inline;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+table{ border-collapse:collapse; }
+.peiyipei{
+    width: 742px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.peiyipei h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+}
+.tb_head{
+    margin-top:44px;
+    position: relative;
+}
+.tb_head ul{
+    position: relative;
+}
+.tb_head ul li{
+    float: left;
+    _display: inline;
+}
+.p_a1{
+    height:35px;
+    line-height: 35px;
+    width: 130px;
+}
+.p_a2,.p_a3{
+    height: 54px;
+    line-height: 26px;
+    width: 240px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.p_a2 span,.p_a3 span{
+    font-size: 14px;
+}
+.p_a2{
+    background: #00abf0;
+}
+.p_a3{
+    background: #55b301;
+}
+.p_a1,.p_a4{
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 19px;
+    color: #000000;
+    background: #cccccc;
+    text-align: center;
+}
+.p_a1{
+    margin-right: 1px;
+}
+.p_a4{
+    margin-left: 1px;
+}
+.percent{
+    width: 86px;
+    height: 81px;
+    position: absolute;
+    left:326px;
+    top:-27px;
+    text-align: center;
+    background: url(../images/percent_bg.png) no-repeat center center;
+}
+.percent h1{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.percent p{
+    font-size: 26px;
+    color: #ff4800;
+}
+td{
+    text-align: center;
+    height: 36px;
+}
+th{
+    height: 0;border:none;
+}
+.hezuo_btn{
+    margin-top: 20px;
+    width:150px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ff4800;
+    border-radius: 3px;
+	color: #fff;
+}
+.hezuo_btn a{
+    color: #ffffff;
+}

@@ -1,0 +1,122 @@
+<extend name="Public:base"/>
+<block name="title">添加资讯--后台管理</block>
+<block name="head_js_css">
+	<link rel="stylesheet" href="/Public/admin/layui/css/layui_ueditor.css" media="all" />
+</block>
+<block name="body">
+<body class="childrenBody">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<label class="layui-form-label">文章标题</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input newsName" name="title" onblur="jiance(this)" lay-verify="required" placeholder="请输入文章标题">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-inline">
+				<label class="layui-form-label">所属栏目</label>
+				<div class="layui-input-inline">
+					<select name="type" class="newsLook" lay-verify="type">
+				        <option value="0">请选择</option>
+						<for start="1" end="C('NEWS_TYPE')[count]">
+				        <option value="{$i}" <eq name="Think.get.type" value="$i">selected</eq>>{:C('NEWS_TYPE')[$i][0]}</option>
+						</for>
+				    </select>
+				</div>
+			</div>
+			<div class="layui-inline">		
+				<label class="layui-form-label">文章作者</label>
+				<div class="layui-input-inline">
+					<input type="text" class="layui-input newsAuthor" value="{$_SESSION['admin_user']['username']}" readonly="readonly" placeholder="请输入文章作者">
+					<input type="hidden" class="layui-input newsAuthor" name="author" value="{$_SESSION['admin_user']['id']}">
+				</div>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">页面关键字</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" name="keywords" onblur="jiance(this)" placeholder="请输入文章关键字">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">文章内容</label>
+			<div class="layui-input-block">
+				<ueditor name="content" content="" onblur="jiance(this)" />
+			</div>
+		</div>
+		<div class="layui-form-item layui-form-text layui-form">
+			<label class="layui-form-label"></label>
+			<div class="layui-input-block" id="text">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<button class="layui-btn" lay-submit="" lay-filter="submit">立即提交</button>
+				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		    </div>
+		</div>
+	</form>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/Public/admin/layui/layui.js"></script>
+	<script type="text/javascript">
+		layui.config({
+			base : "/Public/admin/js/"
+		}).use(['form','layer','jquery'],function(){
+			var form = layui.form(),
+				layer = parent.layer === undefined ? layui.layer : parent.layer,
+				laypage = layui.laypage,
+				$ = layui.jquery;
+			form.on("submit(submit)",function(data){
+				var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+				setTimeout(function(){
+					$.post("{:U('Admin/News/news_add')}",data.field,function(data){
+						if(data==0){
+							top.layer.close(index);
+							top.layer.msg('请选择需要发布的栏目');
+						}else{
+							if(data == '添加成功'){
+								layer.closeAll("iframe");
+								//刷新父页面
+								parent.location.reload();
+							}
+							top.layer.close(index);
+							top.layer.msg(data);
+						}
+					})
+				},1000);
+				return false;
+			})
+			<!-- form.verify({ -->
+				<!-- type: function(data){   -->
+				  <!-- if(data==0){   -->
+					<!-- return '请选择需要发布的栏目';   -->
+				  <!-- }   -->
+				<!-- }, -->
+			<!-- }); -->
+
+		});
+		function jiance(text){
+			var infor = text.value;
+			if(infor!=''){
+				$.ajax({
+				   type: "POST",
+				   url: "{:U('Api/Ajax/ajax_text')}",
+				   data: {infor:infor},
+				   success: function(msg){
+						if(msg!=''){
+							$('#text').html('‘信息标题’或‘内容详情’不通过的词组有：【'+msg+'】');
+							$('#text').css({'color':'red'});
+						}else{
+							$('#text').html('通过检测');
+							$('#text').css({'color':'#000'});
+						}
+						
+				   }
+				});
+			}else if(infor==''){
+				$('#text').html('');
+			}
+		}
+	</script>
+</body>
+</block>

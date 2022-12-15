@@ -1,0 +1,1 @@
+2020/3/27     权限认证开关已关闭，位置：ThinkPHP\Library\Think\Auth.class.php：AUTH_ON由true改为false

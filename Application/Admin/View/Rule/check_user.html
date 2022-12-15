@@ -1,0 +1,51 @@
+<extend name="Public:base"/>
+<block name="title">管理员列表--后台管理</block>
+<block name="head_js_css">
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_tnyc012u2rlwstt9.css" media="all" />
+	<link rel="stylesheet" href="/Public/admin/css/news.css" media="all" />
+</block>
+<block name="body">
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote news_search">
+		<div class="layui-inline">
+			<form class="form-inline" action="">
+		    <div class="layui-input-inline">
+		    	<input type="text" name="username" value="{$Think.get.username}" placeholder="请输入关键字" class="layui-input search_input">
+		    </div>
+			<input class="layui-btn search_btn" type="submit" value="查询">
+			</form>
+		</div>
+		<div class="layui-inline">
+			<div class="layui-form-mid layui-word-aux">本页面刷新后除新添加的文章外所有操作无效，关闭页面所有数据重置</div>
+		</div>
+	</blockquote>
+	<div class="layui-form news_list">
+	  	<table class="layui-table">
+		    <colgroup>
+				<col width="25%">
+				<col width="30%">
+		    </colgroup>
+		    <thead>
+				<tr>
+					<th>用户名</th>
+					<th>操作</th>
+				</tr>
+		    </thead>
+			<tbody class="news_content">
+                <foreach name="user_data" item="v">
+                    <tr>
+                        <th>{$v['username']}</th>
+                        <td>
+                            <if condition="in_array($v['id'],$uids)">已经是{$group_name}
+                                <else/> <a href="{:U('Admin/Rule/add_user_to_group',array('uid'=>$v['id'],'group_id'=>$_GET['group_id'],'username'=>$_GET['username']))}">设为{$group_name}</a>
+                            </if>
+                        </td>
+                    </tr>
+                </foreach>
+
+			</tbody>
+		</table>
+	</div>
+	<div id="page"></div>
+</body>
+</block>

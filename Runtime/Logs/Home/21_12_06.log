@@ -1,0 +1,27 @@
+[ 2021-12-06T08:05:52+08:00 ] 47.97.220.124 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-12-06T09:08:04+08:00 ] 185.191.171.3 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-06T10:30:21+08:00 ] 185.191.171.11 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-06T17:06:40+08:00 ] 193.239.146.98 /assets/images/wp_wrong_datlib.php
+ERR: 无法加载控制器:Assets
+
+[ 2021-12-06T17:43:58+08:00 ] 51.89.228.207 /ads.txt
+ERR: 无法加载控制器:Ads
+
+[ 2021-12-06T18:54:42+08:00 ] 37.115.153.16 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'username' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Im Esther. My sexy photo here https://forms.yandex.ru/u/61a9e1616d6e35b548af4cb7/success/#photo_id757846','Im Kristina. My sexy photo here https://forms.yandex.ru/u/61a9e15f764a8ee1a6a77d0b/success/#photo_id119142','83863691659','??','1638788082')
+ERR: 1406:Data too long for column 'username' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Im Esther. My sexy photo here https://forms.yandex.ru/u/61a9e1616d6e35b548af4cb7/success/#photo_id757846','Im Kristina. My sexy photo here https://forms.yandex.ru/u/61a9e15f764a8ee1a6a77d0b/success/#photo_id119142','83863691659','??','1638788082')
+
+[ 2021-12-06T20:56:21+08:00 ] 185.191.171.13 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-06T21:50:27+08:00 ] 54.36.148.248 /robots.txt
+ERR: 无法加载控制器:Robots
+

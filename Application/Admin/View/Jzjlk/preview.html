@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+		<title>{:systemCache('web_info.store_name')}</title>
+		<link href="/Public/layui/css/layui.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/Public/css/public.css" />
+		<script type="text/javascript" src="/Public/layui/layui.js" ></script>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="/Public/js/jquery.SuperSlide.2.1.1.js"></script>
+		
+	</head>
+<body>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<h3>简历人才库</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<a href="/resume/r0t0c0.html" class="on">优质简历</a>
+				</div>
+				
+				<div class="cont">
+					<h3>联系信息</h3>
+					<p class="tel">{$one['phone']}</p>
+					<p class="lx">
+						{$one['phone']}<br />
+						{$one['qq']}<br />
+						{$one['weixin']}<br />
+						{$one['email']}<br />
+						{$name_province} - {$name_city}
+					</p>
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3>{$one['person']}的简历</h3>
+					<p>当前位置：首页 > 优质简历</p>
+				</div>
+				<div class="jwcont">
+					<h1>{$one['person']}</h1>
+					<p class="tt">点击次数：{$one['browser']}次　　　　更新时间：{:word_time($one['addtime'])}</p>
+					<div class="jwslist">
+						<div class="jws1">基本信息</div>
+						<div class="jws2">
+							<ul>
+								<li><span>姓名：</span>{$one['person']}</li>
+								<li><span>性别：</span>{:C('SEX_TYPE')[$one['sex']]}</li>
+								<li><span>出生年月：</span>{$one['birthday']}</li>
+								<li><span>工作年限：</span>{:C('EXPERIENCE_TYPE')[$one['experience']]}</li>
+								<li><span>职称：</span>{:C('ZCYQ_TYPE')[$one['academic_title']]}<if condition="get_major_name($one['specialty'] eq true)">-{:get_major_name($one['specialty'])}</if></li>
+								<li><span>学历：</span>{:C('DEGREE_TYPE')[$one['degree']]}</li>
+							</ul>
+						</div>
+						<div class="jws1">证书信息</div>
+						<div class="jws2">
+							<ul>
+								<li><span>证书类型：</span><a href="/resume/r0t{$one['classid']}c0.html">{$name_classid}</a>-<a href="/resume/r0t{$one['cid']}c0.html">{$name_cid}</a></li>
+								<li><span>证书所在地：</span><a href="/resume/r0t0c{$one['province']}.html">{$name_province}</a>-<a href="/resume/r0t0c{$one['city']}.html">{$name_city}</a></li>
+								<li><span>社保所在地：</span><a href="/resume/r0t0c{$one['sprovince']}.html">{:get_diqu_name($one['sprovince'])}</a>-<a href="/resume/r0t0c{$one['scity']}.html">{:get_diqu_name($one['scity'])}</a></li>
+								<li><span>注册情况：</span>{:C('REGTYPE')[$one['regtype']]}</li>
+								<li><span>证书状态：</span>{:C('ZZZT_TYPE')[$one['cerstatus']]}</li>
+								<li><span>证书用途：</span>{:C('ZSYT_TYPE')[$one['purpose']]}</li>
+								<li><span>证书适用：</span>{:C('ZSSY_TYPE')[$one['zssy']]}</li>
+								<li><span>挂靠价格：</span>{:C('PRICE_TYPE')[$one['price']]}</li>
+							</ul>
+						</div>
+						<div class="jws1">详细说明</div>
+						<div class="jws3"><?php echo str_replace("\n","<br>",$one['content']);?></div>
+						<div class="jws1">联系信息</div>
+						<div class="jws4">
+							<li><span>姓名：</span>{$one['person']}</li>
+							<li><span>电话：</span>{$one['phone']}</li>
+							<li><span>QQ：</span>{$one['qq']}</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

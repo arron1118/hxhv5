@@ -1,0 +1,55 @@
+[ 2021-11-21T05:55:53+08:00 ] 185.191.171.12 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T05:55:59+08:00 ] 185.191.171.39 /sitemap.xml
+ERR: 无法加载控制器:Sitemap
+
+[ 2021-11-21T06:09:42+08:00 ] 183.212.182.46 /phpinfo.php
+ERR: 无法加载控制器:Phpinfo
+
+[ 2021-11-21T06:12:11+08:00 ] 220.181.51.113 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T06:38:03+08:00 ] 157.55.39.82 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T11:16:45+08:00 ] 47.102.144.234 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-11-21T11:59:17+08:00 ] 51.222.253.5 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T13:23:11+08:00 ] 185.191.171.22 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T15:41:46+08:00 ] 175.153.11.8 /uploads/userup/index.html
+ERR: 无法加载控制器:Uploads
+
+[ 2021-11-21T17:51:03+08:00 ] 185.191.171.1 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T19:56:29+08:00 ] 35.219.62.239 /wp-login.php
+ERR: 无法加载控制器:Wp-login
+
+[ 2021-11-21T20:45:31+08:00 ] 156.146.63.155 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Hi. 
+We are a group of highly qualified ethical hackers who scan tens of thousands of sites every day for critical vulnerabilities and patch them for a small fee of $ 1500 per site. 
+On your site hxhv5.com we have discovered 29 critical vulnerabilities, each of which can give attackers full access to your site, databases and the server as a whole. 
+Pay $ 1500 to this Bitcoin wallet bc1qw8uwvpx3jnz8jlyj5j6zff9z5ztlsggvyq5pfj 
+And after payment within 3 hours we will fix all the vulnerabilities on your site and you can sleep peacefully without worrying about the safety of your site and server. 
+If we are hired by well-known corporations, then we charge from $ 50000 for our services, so you are lucky that we offer you the same service for $ 1500.','RonaldMub','87655365375','??','1637498731')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Hi. 
+We are a group of highly qualified ethical hackers who scan tens of thousands of sites every day for critical vulnerabilities and patch them for a small fee of $ 1500 per site. 
+On your site hxhv5.com we have discovered 29 critical vulnerabilities, each of which can give attackers full access to your site, databases and the server as a whole. 
+Pay $ 1500 to this Bitcoin wallet bc1qw8uwvpx3jnz8jlyj5j6zff9z5ztlsggvyq5pfj 
+And after payment within 3 hours we will fix all the vulnerabilities on your site and you can sleep peacefully without worrying about the safety of your site and server. 
+If we are hired by well-known corporations, then we charge from $ 50000 for our services, so you are lucky that we offer you the same service for $ 1500.','RonaldMub','87655365375','??','1637498731')
+
+[ 2021-11-21T22:07:08+08:00 ] 54.36.149.8 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-21T23:56:24+08:00 ] 203.208.60.1 /robots.txt
+ERR: 无法加载控制器:Robots
+

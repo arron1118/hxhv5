@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>文章列表--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/Public/admin/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_tnyc012u2rlwstt9.css" media="all" />
+	<link rel="stylesheet" href="/Public/admin/css/news.css" media="all" />
+	<script src="/Public/home/js/open.js"></script>
+</head>
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote news_search">
+		<div class="layui-inline">
+			<a class="layui-btn layui-btn-normal" onclick="open_show('编辑','{:U('Admin/Zizhimenu/add',array('parentid'=>0))}',600,400)">添加资质类别分类</a>
+		</div>
+	</blockquote>
+	<div class="layui-form news_list">
+	<div class="layui-collapse" lay-accordion>
+		<foreach name="data" item="v">
+			<div class="layui-colla-item">
+				<h2 class="layui-colla-title"><strong>{$v['name']}</strong></h2>
+				<div class="layui-colla-content">
+					<table class="layui-table">
+						<colgroup>
+							<col width="3%">
+							<col width="9%">
+							<col width="3%">
+							<col width="15%">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th style="text-align:left;">菜单名</th>
+								<th>展示</th>
+								<th>操作</th>
+							</tr> 
+						</thead>
+						<tbody class="news_content">
+							<tr>
+								<td align="center">{$v['id']}</td>
+								<td align="left"><strong>{$v['name']}</strong>
+								<a class="layui-btn layui-btn-normal layui-btn-mini" style="float:right;" onclick="open_show('添加二级菜单','{:U('Admin/Zizhimenu/add',array('parentid'=>$v['id']))}',600,400)"><i class="layui-icon">&#xe608;</i>添加二级菜单</a>
+								</td>
+								<td>
+									<input type="checkbox" name="show" listId="{$v['id']}" lay-skin="switch" lay-text="是|否" lay-filter="isShow" <eq name="v['show']" value="0">checked=""</eq>>
+									<div class="layui-unselect layui-form-switch" lay-skin="_switch"><em>{:C('YN_TYPE')[$v['show']]}</em><i></i>
+									</div>
+								</td>
+								<td>
+								<a class="layui-btn layui-btn-mini" onclick="open_show('编辑','{:U('Admin/Zizhimenu/edit',array('id'=>$v['id']))}',600,400)"><i class="iconfont icon-edit"></i> 编辑</a>
+								<a class="layui-btn layui-btn-danger layui-btn-mini del"  navId="{$v['id']}" ><i class="layui-icon"></i> 删除</a>
+								</td>
+							</tr>
+							<php>$zizhi_menu = M('zizhi_menu');$list_ej = $zizhi_menu->where('parent_id=%d',$v['id'])->order('id')->select();</php>
+							<foreach name="list_ej" item="v2">
+							<tr>
+								<td align="center">{$v2['id']}</td>
+								<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├{$v2['name']}
+								<a class="layui-btn layui-btn-normal layui-btn-mini" style="float:right;" onclick="open_show('添加子菜单','{:U('Admin/Zizhimenu/add',array('parentid'=>$v2['id']))}',600,400)"><i class="layui-icon">&#xe608;</i>添加子菜单</a>
+								</td>
+								<td>
+									<input type="checkbox" name="show" listId="{$v2['id']}" lay-skin="switch" lay-text="是|否" lay-filter="isShow" <eq name="v2['show']" value="0">checked=""</eq>>
+									<div class="layui-unselect layui-form-switch" lay-skin="_switch"><em>{:C('YN_TYPE')[$v2['show']]}</em><i></i>
+									</div>
+								</td>
+								<td>
+								<a class="layui-btn layui-btn-mini" onclick="open_show('编辑','{:U('Admin/Zizhimenu/edit',array('id'=>$v2['id']))}',600,400)"><i class="iconfont icon-edit"></i> 编辑</a>
+								<a class="layui-btn layui-btn-danger layui-btn-mini del"  navId="{$v2['id']}" ><i class="layui-icon"></i> 删除</a>
+								</td>
+							</tr>
+							<php>$list_sj = $zizhi_menu->where('parent_id=%d',$v2['id'])->order('id')->select();</php>
+							<foreach name="list_sj" item="v22">
+							<tr>
+								<td align="center">{$v22['id']}</td>
+								<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├{$v22['name']}</td>
+								<td>
+									<input type="checkbox" name="show" listId="{$v22['id']}" lay-skin="switch" lay-text="是|否" lay-filter="isShow" <eq name="v22['show']" value="0">checked=""</eq>>
+									<div class="layui-unselect layui-form-switch" lay-skin="_switch"><em>{:C('YN_TYPE')[$v22['show']]}</em><i></i>
+									</div>
+								</td>
+								<td>
+								<a class="layui-btn layui-btn-mini" onclick="open_show('编辑','{:U('Admin/Zizhimenu/edit',array('id'=>$v22['id']))}',600,400)"><i class="iconfont icon-edit"></i> 编辑</a>
+								<a class="layui-btn layui-btn-danger layui-btn-mini del"  navId="{$v22['id']}" ><i class="layui-icon"></i> 删除</a>
+								</td>
+							</tr>
+							</foreach>
+							</foreach>
+						
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</foreach>
+	</div>
+	</div>
+	<div id="page"></div>
+	<script type="text/javascript" src="/Public/admin/layui/layui.js"></script>
+	<script type="text/javascript">
+layui.config({
+	base : "/Public/admin/js/"
+}).use(['form','layer','jquery','laypage','element'],function(){
+	var form = layui.form(),
+		layer = parent.layer === undefined ? layui.layer : parent.layer,
+		laypage = layui.laypage,
+		element = layui.element,
+		$ = layui.jquery;
+
+	$("body").on("click",".del",function(){  //删除
+		var navId=$(this).attr('navId');
+		layer.confirm('确定删除此信息？'+navId,{icon:3, title:'提示信息'},function(data){
+				var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+				setTimeout(function(){
+					$.get("/index.php/Admin/Zizhimenu/delete/id/"+navId,function(data){
+						top.layer.close(index);
+						top.layer.msg(data);
+						//刷新当前页面
+						window.location.reload();
+					})
+				},1000);
+		});
+	})
+	//是否展示
+	form.on('switch(isShow)', function(data){
+		var listId=$(this).attr('listId');
+		var index = layer.msg('修改中，请稍候',{icon: 16,time:false,shade:0.8});
+		data.elem.checked==true ? status = 0 : status = 1 ;
+		console.log(status)
+		setTimeout(function(){
+			$.post("{:U('Admin/Zizhimenu/edit')}",{id:listId,show:status},function(data){
+				top.layer.close(index);
+				top.layer.msg(data);
+			})
+			layer.close(index);
+		},500);
+	})
+	
+})
+
+	</script>
+</body>
+</html>

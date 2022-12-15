@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>文章添加--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="/Public/admin/layui/css/layui.css" media="all" />
+</head>
+<body class="childrenBody">
+		<form class="layui-form" action="{:U('Users/publish')}" method="post">
+			<if condition="($type eq 1)">
+			<hr/>
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label"><span style="color:red;">*</span>简历姓名：</label>
+                  <div class="layui-input-inline">
+                    <input type="text" name="person" id="person" value="{$one['person']}" lay-verify="required" autocomplete="off" maxlength="5" placeholder="请输入简历姓名" class="layui-input" />
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label">简历号码：</label>
+                  <div class="layui-input-inline">
+                    <input type="text" name="phone" id="phone" value="{$one['phone']}" maxlength="11" onblur="jiance_phone(this)" lay-verify="required|phone" autocomplete="off" maxlength="25" placeholder="请输入简历手机号码" class="layui-input" />
+                  </div>
+				  <span id="tips"><span>
+                </div>
+            </div>
+			<div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">简历QQ：</label>
+                  <div class="layui-input-inline">
+                    <input type="text" name="qq" id="qq" value="{$one['qq']}" autocomplete="off" maxlength="13" placeholder="请输入简历QQ" class="layui-input" />
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label">简历邮箱：</label>
+                  <div class="layui-input-inline">
+                    <input type="text" name="email" id="email" value="{$one['email']}" autocomplete="off" maxlength="25" placeholder="请输入简历邮箱" class="layui-input" />
+                  </div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">出生年月：</label>
+                <div class="layui-input-inline">
+                  <input type="text" name="birthday" id="birthday" value="{$one['birthday']}" placeholder="yyyy-MM-dd" value="{$one['birthday']}" class="layui-input" >
+                </div>
+                <label class="layui-form-label">性别：</label>
+                <div class="layui-input-inline">
+                  <input type="radio" name="sex" value="1" title="男" <eq name="one['sex']" value="1">checked=""</eq>>
+      			  <input type="radio" name="sex" value="2" title="女" <eq name="one['sex']" value="2">checked=""</eq>>
+                </div>
+            </div>
+			<hr/>
+			</if>
+			<neq name="type" value="1">
+            <div class="layui-form-item">
+                <label class="layui-form-label"><span style="color:red;">*</span>信息标题：</label>
+                <div class="layui-input-block">
+				  <input type="text" name="title" id="title" value="{$one['title']}" onblur="jiance(this)" lay-verify="required|title" autocomplete="off" maxlength="25" placeholder="标题限制（8-25字）之间哦" class="layui-input" />
+                </div>
+			</div>
+			</neq>
+			<in name="type" value="2,5">
+            <div class="layui-form-item">
+                <label class="layui-form-label"><eq name="type" value="2">招聘职位<else/>意向职位</eq>：</label>
+                <div class="layui-input-inline">
+				  <input type="text" name="job" id="job" value="{$one['job']}" autocomplete="off" maxlength="15" placeholder="<eq name='type' value='2'>请输入您招聘的岗位名称<else/>请输入您意向职位的名称</eq>" class="layui-input" />				  
+                </div>
+			</div>
+			</in>
+            <div class="layui-form-item layui-form">
+                <div class="layui-inline">
+					<label class="layui-form-label"><span style="color:red;">*</span>
+					<switch name="type">
+						<case value="2|5">薪资范围</case>
+						<default />价格范围
+					</switch>：
+				</label>
+					<div class="layui-input-inline">
+					  <div class="layui-input-inline">
+						<select id="price" name="price" lay-verify="required" lay-search="">
+							<for start="0" end="C('PRICE_TYPE')[count]">
+								<option value="{$i}" <eq name="one['price']" value="$i">selected</eq>>{:C('PRICE_TYPE')[$i]}</option>
+							</for>
+						</select>
+					  </div>
+					</div>
+					  <div class="layui-form-mid">（合理选择价格区间，更有效哦）</div>
+                </div>
+			</div>
+            <div class="layui-form-item">
+				<label class="layui-form-label"><span style="color:red;">*</span>
+				<switch name="type">
+					<case value="1">证书地区</case>
+					<case value="2">工作地区</case>
+					<case value="6">代办地区</case>
+					<case value="5">求职地区</case>
+					<default />选择地区
+				</switch>：
+				</label>
+                <div class="layui-input-inline">
+					<select lay-filter="province" lay-verify="required" lay-search="" name="province" id="province">
+						<option selected="selected" value="">请选择省</option>
+						<php>
+							if(S('diqu_classid_select')){
+								$diqu_classid_select = S('diqu_classid_select');
+							}else{
+								$diqu_classid_select = M("diqu") ->where("parentid=0")->field("id,city,parentid")->order("id asc")->select();
+								S('diqu_classid_select',$diqu_classid_select,array('type'=>'file','expire'=>18000)); //缓存5个小时
+							};
+						</php>
+						<foreach name="diqu_classid_select" item="vo">
+							<option value="{$vo['id']}" <eq name="one['province']" value="$vo['id']">selected</eq>>{$vo["city"]}</option>
+						</foreach>							
+					</select>
+                </div>
+                <div class="layui-input-inline">
+                    <select lay-filter="city" lay-verify="required" lay-search="" name="city" id="city">
+                        <option  value="{$one['city']}" selected>{:get_diqu_name($one['city'])}</option>
+                    </select>
+                </div>
+            </div>
+			<in name="type" value="1,5">
+            <div class="layui-form-item">
+				<label class="layui-form-label"><span style="color:red;">*</span>社保地区：</label>
+                <div class="layui-input-inline">
+					<select lay-filter="sprovince" lay-verify="required" lay-search="" name="sprovince" id="sprovince">
+						<option selected="selected" value="">请选择省</option>
+						<option value="0">无社保</option>
+						<foreach name="diqu_classid_select" item="vo">
+							<option value="{$vo['id']}" <eq name="one['sprovince']" value="$vo['id']">selected</eq>>{$vo["city"]}</option>
+						</foreach>							
+					</select>
+                </div>
+                <div class="layui-input-inline">
+                    <select lay-filter="scity" lay-verify="required" lay-search="" name="scity" id="scity">
+						<option value="{$one['scity']}" selected>{:get_diqu_name($one['scity'])}</option>
+                    </select>
+                </div>
+            </div>
+			</in>
+			<neq name="type" value="6">
+            <div class="layui-form-item layui-form">
+                <label class="layui-form-label">注册情况：</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="regtype" value="1" title="{:C('REGTYPE')[1]}" <eq name="one['regtype']" value="1">checked=""</eq>>
+                    <input type="radio" name="regtype" value="2" title="{:C('REGTYPE')[2]}" <eq name="one['regtype']" value="2">checked=""</eq>>
+                    <input type="radio" name="regtype" value="3" title="{:C('REGTYPE')[3]}" <eq name="one['regtype']" value="3">checked=""</eq>>
+                </div>
+            </div>
+			<eq name="type" value="1">
+			<div class="layui-form-item layui-form">
+                <label class="layui-form-label">证书状态：</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="cerstatus" value="1" title="{:C('ZZZT_TYPE')[1]}" <eq name="one['cerstatus']" value="1">checked=""</eq>>
+                    <input type="radio" name="cerstatus" value="2" title="{:C('ZZZT_TYPE')[2]}" <eq name="one['cerstatus']" value="2">checked=""</eq>>
+                    <input type="radio" name="cerstatus" value="3" title="{:C('ZZZT_TYPE')[3]}" <eq name="one['cerstatus']" value="3">checked=""</eq>>
+                </div>
+            </div>
+			</eq>
+			<eq name="type" value="2">
+			<div class="layui-form-item layui-form">
+                <label class="layui-form-label">证书用途：</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="purpose" value="1" title="{:C('ZSYT_TYPE')[1]}" <eq name="one['purpose']" value="1">checked=""</eq>>
+                    <input type="radio" name="purpose" value="2" title="{:C('ZSYT_TYPE')[2]}" <eq name="one['purpose']" value="2">checked=""</eq>>
+					<input type="radio" name="purpose" value="3" title="{:C('ZSYT_TYPE')[3]}" <eq name="one['purpose']" value="3">checked=""</eq>>
+                </div>
+            </div>
+			</eq>
+			<in name="type" value="1,2,5">
+			<div class="layui-form-item layui-form">
+                <label class="layui-form-label"><eq name="type" value="2">聘证用途<else/>证书适用</eq>：</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="zssy" value="1" title="{:C('ZSSY_TYPE')[1]}" <eq name="one['zssy']" value="1">checked=""</eq>>
+                    <input type="radio" name="zssy" value="2" title="{:C('ZSSY_TYPE')[2]}" <eq name="one['zssy']" value="2">checked=""</eq>>
+                    <input type="radio" name="zssy" value="3" title="{:C('ZSSY_TYPE')[3]}" <eq name="one['zssy']" value="3">checked=""</eq>>
+                </div>
+            </div>
+			</in>
+            <div class="layui-form-item">
+                <label class="layui-form-label"><in name="type" value="1,5">持有职称<else/>职称要求</in>：</label>
+                <div class="layui-input-inline">
+                    <select name="academic_title" id="academic_title" lay-filter="academic_title" lay-verify="required">
+                        <option value="0" <eq name="one['academic_title']" value="0">selected</eq>>{:C('ZCYQ_TYPE')[0]}</option>
+                        <option value="136" <eq name="one['academic_title']" value="136">selected</eq>>{:C('ZCYQ_TYPE')[136]}</option>
+                        <option value="5" <eq name="one['academic_title']" value="5">selected</eq>>{:C('ZCYQ_TYPE')[5]}</option>
+                        <option value="158" <eq name="one['academic_title']" value="158">selected</eq>>{:C('ZCYQ_TYPE')[158]}</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select name="specialty" id="specialty" lay-filter="specialty" lay-verify="required" lay-search="">
+                        <option value="{$one['specialty']}">{:get_major_name($one['specialty'])}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                  <label class="layui-form-label">工作年限：</label>
+                  <div class="layui-input-inline">
+                    <select name="experience" lay-verify="required" lay-search="">
+						<for start="0" end="C('EXPERIENCE_TYPE')[count]">
+							<option value="{$i}" <eq name="one['experience']" value="$i">selected</eq>>{:C('EXPERIENCE_TYPE')[$i]}</option>
+						</for>
+                    </select>
+                  </div>
+                </div>
+                <div class="layui-inline">
+                  <label class="layui-form-label">学历要求：</label>
+                  <div class="layui-input-inline">
+                    <select name="degree" lay-verify="required" lay-search="">
+						<for start="0" end="C('DEGREE_TYPE')[count]">
+							<option value="{$i}" <eq name="one['degree']" value="$i">selected</eq>>{:C('DEGREE_TYPE')[$i]}</option>
+						</for>
+                    </select>
+                  </div>
+                </div>
+            </div>
+			</neq>
+            <div class="layui-form-item layui-form-text layui-form">
+                <label class="layui-form-label"><span style="color:red;">*</span>内容详情：</label>
+                <div class="layui-input-block">
+                  <textarea placeholder="请输入内容" lay-verify="required" name="content" id="content" onblur="jiance(this)" class="layui-textarea">{$one['content']}</textarea>
+                </div>
+			</div>
+			<div class="layui-form-item layui-form-text layui-form">
+                <label class="layui-form-label"></label>
+                <div class="layui-input-block" id="text">
+                </div>
+			</div>
+			  <div class="layui-form-item layui-form">
+				<label class="layui-form-label">验证码：</label>
+				<div class="layui-input-inline" style="width:150px;">
+				  <input type="text" name="code" id="code" lay-verify="required" maxlength="4" placeholder="请输入图片验证码" autocomplete="off" class="layui-input">
+				</div>
+				<img src="{:U('login/verify')}" id="yzm" alt="验证码,看不清楚?请点击刷新验证码" align="absmiddle" onclick="javascript:this.src='{:U('login/verify')}?'+Math.random();" style="cursor:pointer;" />
+			  </div>
+			<input type="hidden" name="id" value="{$one['id']}">
+			<input type="hidden" name="type" value="{$one['type']}">
+			<div class="layui-form-item">
+                <div class="layui-input-block">
+                  <button class="layui-btn" lay-submit="" lay-filter="submit">立即提交</button>
+                  <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+	<script src="/Public/home/layui/layui.js"></script>
+
+<script>
+layui.use(['layer', 'form' ,'jquery','laydate'], function(){
+  var layer = parent.layer === undefined ? layui.layer : parent.layer
+  ,$ = layui.jquery
+  ,laydate = layui.laydate
+  ,form = layui.form;
+	laydate.render({
+		elem: '#birthday'
+		,calendar: true
+		,showBottom: false
+		,max:0
+	});
+	form.verify({
+		title: function(value){  
+		  if(value.length < 8 || value.length > 25){  
+			return '标题限制（8-25字）之间哦';  
+		  }  
+		},
+	});
+	form.on("submit(submit)",function(data){
+		var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+		setTimeout(function(){
+			$.post("{:U('Users/publish_edit')}",data.field,function(data){
+				if(data.success==true){
+					top.layer.close(index);
+					top.layer.msg(data.msg);
+					layer.closeAll("iframe");
+					var type = {:I('get.type')};
+					if(type==1){
+						parent.window.location.href = "{:U('Jzjlk/my_jlk_list')}";
+					}else if(type==6){
+						parent.window.location.href = "{:U('Zizhi/my_zz_list')}";
+					}else if(type==2){
+						parent.window.location.href = "{:U('Recruitment/my_rt_list')}?type_show=1";
+					}else if(type==5){
+						parent.window.location.href = "{:U('Recruitment/my_rt_list')}?type_show=2";
+					}
+				}else{
+					$('#code').val('');
+					$('#yzm').attr('src',"{:U('login/verify')}?"+Math.random());
+					top.layer.close(index);
+					top.layer.msg(data);
+				}
+			})
+		},1000);
+		return false;
+	});
+	form.on('select(zhuanye)', function(aa){
+		var a=aa.value;
+		$.ajax({
+			type:"Post",
+			url:"{:U('Api/Ajax/ajax_professional')}",
+			data:{parentid:aa.value,range:0},
+			cache:false,
+			success:function(msg){
+				$("#cid").html(msg)
+				form.render('select');
+			}
+		})
+		if(a==136 || a==5 || a==158){
+			$('#specialty').attr('disabled',"true");
+			$('#academic_title').attr('disabled',"true");
+			$('#specialty').html('<option value="0">无</option>')
+			$('#academic_title').html('<option value="0">无</option><option value="136">初级职称</option><option value="5">中级职称</option><option value="158">高级职称</option>')
+		}else{
+			$('#specialty').removeAttr("disabled");
+			$('#academic_title').removeAttr("disabled");
+		}
+
+	});
+	form.on('select(zizhi_zhuanye)', function(aa){
+		var a=aa.value;
+		if(a == ''){
+			$('#cid').html('<option value="">资质专业</option>');
+			form.render('select');
+		}else{
+			$.ajax({
+				type:"Post",
+				url:"{:U('Api/Ajax/ajax_zizhi')}",
+				data:{parentid:aa.value},
+				cache:false,
+				success:function(msg){
+					
+					$("#cid").html(msg)
+					$('#cid_dj').html('<option value="">资质等级</option>')
+					form.render('select');
+				}
+			})
+		}
+	});
+	form.on('select(cid)', function(aa){
+		var a=aa.value;
+		if(a == ''){
+			$('#cid_dj').html('<option value="">资质等级</option>');
+			form.render('select');
+		}else{
+			$.ajax({
+				type:"Post",
+				url:"{:U('Api/Ajax/ajax_zizhi_dj')}",
+				data:{parentid:aa.value},
+				cache:false,
+				success:function(msg){
+					
+					$("#cid_dj").html(msg)
+					form.render('select');
+				}
+			})
+		}
+	});
+	form.on('select(academic_title)', function(aa){
+		var a=aa.value;
+		if(a == 0){
+			$('#specialty').html('<option value="0">无</option>');
+			form.render('select');
+		}else{
+			$.ajax({
+				type:"Post",
+				url:"{:U('Api/Ajax/ajax_professional')}",
+				data:{parentid:aa.value,range:0},
+				cache:false,
+				success:function(msg){
+					
+					$("#specialty").html(msg)
+					form.render('select');
+				}
+			})
+		}
+	});
+	form.on('select(province)', function(aa){
+		$.ajax({
+			type:"Post",
+			url:"{:U('Api/Ajax/ajax_city')}",
+			data:{province:aa.value},
+			cache:false,
+			success:function(msg){
+				$("#city").html(msg)
+				form.render('select');
+			}
+		})
+	});
+	form.on('select(sprovince)', function(aa){
+		var a=aa.value;
+		if(a==''){
+			$('#scity').html('<option selected="selected" value="">请选择城市</option>');
+			form.render('select');
+		}else{
+			$.ajax({
+				type:"Post",
+				url:"{:U('Api/Ajax/ajax_citys')}",
+				data:{province:a},
+				cache:false,
+				success:function(msg){
+					$("#scity").html(msg)
+					form.render('select');
+				}
+			})
+		}
+
+	});
+	
+});
+function jiance(text){
+	var infor = text.value;
+	if(infor!=''){
+		$.ajax({
+		   type: "POST",
+		   url: "{:U('Api/Ajax/ajax_text')}",
+		   data: {infor:infor},
+		   success: function(msg){
+				if(msg!=''){
+					$('#text').html('‘信息标题’或‘内容详情’不通过的词组有：【'+msg+'】');
+					$('#text').css({'color':'red'});
+				}else{
+					$('#text').html('通过检测');
+					$('#text').css({'color':'#000'});
+				}
+				
+		   }
+		});
+	}else if(infor==''){
+		$('#text').html('');
+	}
+}
+function jiance_phone(obj)
+{
+	phone = $("#phone").val();
+	this_phone = "{$one['phone']}";
+	if(phone=='' || phone==this_phone){
+		$('#tips').html('');
+		return;
+	}
+	$.ajax({
+	   type: "POST",
+	   url: "{:U('Api/Ajax/check_jzjlk_phone')}",
+	   data: "phone="+phone,
+	   success: function(msg){
+			$('#tips').html(msg);
+	   }
+	});
+}
+</script>
+</body>
+</html>

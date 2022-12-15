@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link href="/Public/home/layui/css/layui.css" rel="stylesheet" />
+	<link href="/Public/home/css/main.css" rel="stylesheet" />
+	<link href="/Public/home/css/other.css" rel="stylesheet" />
+	<title>{$one['title']}</title>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="/Public/home/layui/layui.js" ></script>
+</head>
+<body>
+<div class="news_cen">
+	<div class="news_read">
+		<h1>{$one['title']}</h1>
+		<div class="tit">
+			<span><i class="iconfont">&#xe656;</i> {:word_time(strtotime($one['addtime']))}</span>
+			<span><a href=""><i class="iconfont">&#xe689;</i> {$one['browser']}次</a></span>
+		</div>
+		<div class="cont">
+		{$one['content']}
+		</div>
+	</div>
+	<div class="news_right">
+		<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+		  <ul class="layui-tab-title">
+		    <li class="layui-this">右侧</li>
+		    <li>右侧</li>
+		  </ul>
+		</div> 
+	</div>
+</div>
+<script src="/Public/home/js/conn.js"></script>
+</body>
+</html>

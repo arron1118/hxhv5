@@ -1,0 +1,66 @@
+<extend name="Public:home_base"/>
+<block name="title">{$title_city}{$title_classid?$title_classid:'建造师'}<if condition="$range eq 1">证书<else/>招聘</if>招聘网_<if condition="$title_city or $title_classid">{$title_cid}{$title_classid}招聘价格<else/>一级二级建造师招聘_人才证书招聘</if></block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<include file="Public:Other_top_ad"/>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<h3>招聘信息</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<a href="/zp/r0t0c0.html" <eq name="range" value="0"> class="on"</eq>>招聘信息</a>
+					<a href="/zp/r1t0c0.html" <eq name="range" value="1"> class="on"</eq>>求职信息</a>
+				</div>
+				<div class="news">
+					<h3>新闻动态</h3>
+					<ul>
+					<foreach name="about_news" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3><if condition="$range eq 0">招聘信息<elseif condition="$range eq 1" />求职信息</if></h3>
+					<p>当前位置：首页 > <if condition="$range eq 0">招聘信息<elseif condition="$range eq 1" />求职信息</if></p>
+				</div>
+				
+				<div class="layui-form">
+				  <table class="layui-table" lay-size="lg">
+				    <colgroup>
+				      <col width="40%">
+				      <col width="20%">
+				      <col width="20%">
+				      <col width="20%">
+				    </colgroup>
+				    <thead>
+				      <tr>
+				        <th>信息标题</th>
+				        <th>发布者</th>
+				        <th>地区</th>
+				        <th>发布时间</th>
+				      </tr> 
+				    </thead>
+				    <tbody>
+					<foreach name='data' item='v'><php>$one_user = M('admin_users')->field('person')->where(array('id'=>$v['user_id']))->find();</php>
+				      <tr>
+						<td><a href="/zp/{:idEncode($v['id'])}.html" target="_blank">{:str_replace(I('get.wd'),'<font style="color:red;">'.I('get.wd').'</font>',$v['title'])}</a></td>
+				        <td>{$one_user['person']}</td>
+					    <td>{:get_diqu_name($v['province'])}-{:get_diqu_name($v['city'])}</td>
+					    <td>{:word_time($v['addtime'])}</td>
+				      </tr>
+					</foreach>
+				    </tbody>
+				  </table>
+				</div>
+				
+				<div class="zpage">{$page}</div>
+			</div>
+		</div>
+</block>
+<block name="js"></block>

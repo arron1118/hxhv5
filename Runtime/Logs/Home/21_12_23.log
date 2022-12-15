@@ -1,0 +1,24 @@
+[ 2021-12-23T14:53:06+08:00 ] 116.179.33.81 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-23T16:09:28+08:00 ] 54.36.149.52 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-23T16:30:04+08:00 ] 37.115.218.47 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'username' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Im Loretta. My sexy photo here https://vyrexyx.page.link/8rcLj6HcY28QyT8y8#photo_id791461','Im Miranda. My sexy photo here https://pasuqybu.page.link/wRfa1Nm84KFhw6h36#photo_id383357','83214125382','??','1640248204')
+ERR: 1406:Data too long for column 'username' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Im Loretta. My sexy photo here https://vyrexyx.page.link/8rcLj6HcY28QyT8y8#photo_id791461','Im Miranda. My sexy photo here https://pasuqybu.page.link/wRfa1Nm84KFhw6h36#photo_id383357','83214125382','??','1640248204')
+
+[ 2021-12-23T17:01:10+08:00 ] 130.255.166.11 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-23T17:01:11+08:00 ] 130.255.166.69 /humans.txt
+ERR: 无法加载控制器:Humans
+
+[ 2021-12-23T17:01:11+08:00 ] 130.255.166.80 /ads.txt
+ERR: 无法加载控制器:Ads
+
+[ 2021-12-23T23:20:25+08:00 ] 23.228.70.82 /public/assets/jquery-file-upload/server/php/index.php?file=tf2rghf.jpg
+ERR: 无法加载控制器:Public
+

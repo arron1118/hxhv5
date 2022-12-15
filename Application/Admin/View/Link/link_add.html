@@ -1,0 +1,69 @@
+<extend name="Public:base"/>
+<block name="title">添加链接--后台管理</block>
+<block name="head_js_css"></block>
+<block name="body">
+<body class="childrenBody">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<div class="layui-inline">
+				<label class="layui-form-label">打开方式</label>
+				<div class="layui-input-inline">
+					<select name="target" class="newsLook" lay-verify="type">
+				        <option value="1" >{:C('LINK_TYPE')[1][0]}</option>
+				        <option value="2" >{:C('LINK_TYPE')[2][0]}</option>
+				    </select>
+				</div>
+			</div>
+		</div>
+		<div class="layui-form-item">	
+			<label class="layui-form-label">链接名称</label>
+			<div class="layui-input-inline">
+				<input type="text" class="layui-input newsAuthor" name="title" value="" lay-verify="required" placeholder="请输入链接名称">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">URL链接</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input newsAuthor" name="links" id="links"  value="http://" placeholder="输入网址，必须再前面加【http://】">
+				<span id="tips"><span>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<button class="layui-btn" lay-submit="" lay-filter="submit">立即提交</button>
+				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		    </div>
+		</div>
+	</form>
+	<script type="text/javascript" src="/Public/admin/layui/layui.js"></script>
+	<script type="text/javascript">
+		layui.config({
+			base : "/Public/admin/js/"
+		}).use(['form','layer','jquery'],function(){
+			var form = layui.form(),
+				layer = parent.layer === undefined ? layui.layer : parent.layer,
+				laypage = layui.laypage,
+				$ = layui.jquery;
+				
+			form.on("submit(submit)",function(data){
+				var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+				setTimeout(function(){
+					$.post("{:U('Admin/Link/link_add')}",data.field,function(data){
+						if(data==0){
+							top.layer.close(index);
+							top.layer.msg('请选择需要发布的栏目');
+						}else{
+							top.layer.close(index);
+							top.layer.msg(data);
+							layer.closeAll("iframe");
+							//刷新父页面
+							parent.location.reload();
+						}
+					})
+				},1000);
+				return false;
+			})
+		})
+	</script>
+</body>
+</block>

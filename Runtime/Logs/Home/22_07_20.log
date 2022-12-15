@@ -1,0 +1,100 @@
+[ 2022-07-20T00:38:30+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T00:38:31+08:00 ] 162.55.85.226 /sitemap
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-07-20T00:38:35+08:00 ] 162.55.85.226 /sitemap.txt
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-07-20T02:14:19+08:00 ] 54.36.148.157 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T04:30:25+08:00 ] 185.191.171.38 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T06:14:26+08:00 ] 193.233.193.63 /adminer.php
+ERR: 无法加载控制器:Adminer
+
+[ 2022-07-20T06:14:26+08:00 ] 193.233.193.63 /adminer-4.3.1.php
+ERR: 无法加载控制器:Adminer-4.3.1
+
+[ 2022-07-20T06:14:27+08:00 ] 193.233.193.63 /adminer-4.2.5.php
+ERR: 无法加载控制器:Adminer-4.2.5
+
+[ 2022-07-20T06:14:28+08:00 ] 193.233.193.63 /adminer-4.6.2.php
+ERR: 无法加载控制器:Adminer-4.6.2
+
+[ 2022-07-20T06:14:29+08:00 ] 193.233.193.63 /backup/adminer.php
+ERR: 无法加载控制器:Backup
+
+[ 2022-07-20T06:14:30+08:00 ] 193.233.193.63 /old/adminer.php
+ERR: 无法加载控制器:Old
+
+[ 2022-07-20T14:04:13+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T14:04:13+08:00 ] 162.55.85.226 /sitemap
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-07-20T14:04:29+08:00 ] 162.55.85.226 /sitemap.txt
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-07-20T14:12:17+08:00 ] 66.249.68.53 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T15:54:40+08:00 ] 154.54.249.200 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T15:55:13+08:00 ] 154.54.249.200 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T15:57:58+08:00 ] 154.54.249.200 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T18:21:23+08:00 ] 51.222.253.20 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-07-20T22:21:36+08:00 ] 154.17.76.143 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('TO RENEW hxhv5.com (Expires on 2022-07-20): 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0 
+
+This notice is to inform you that your invoice number 1852706442 is OVERDUE. hxhv5.com expired on 2022-07-20* is SUSPENDED. Please send payment AS SOON AS POSSIBLE to avoid any TERMINATION of service to hxhv5.com. 
+
+Do take note that if no payment is made in the next 3 business days, your data will be purged and deleted. 
+
+TO RENEW hxhv5.com: 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0 
+
+Disclaimer notice: We can not be held legally liable for any claims, damages or suffering that you may incur due to the expiration of hxhv5.com. Any such damages may potentially include but are not exclusively limited to: fiduciary losses, deleted data without backups, loss of results in search rankings, lost appointments, undeliverable electronic mail and any other technical, business or service damage that you may incur. For more information please refer to section 13.c.3.f of our Terms of Service. 
+
+This is the final renewal message that we are legally required to transmit with regards to the expiration of hxhv5.com. 
+
+SECURE ONLINE RENEWAL: 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0
+
+All web services will be restored immediately on hxhv5.com upon confirmation of payment. We thank you for your urgent attention and continued business.','Web Station Domain','318-573-6662','留言','1658326896')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('TO RENEW hxhv5.com (Expires on 2022-07-20): 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0 
+
+This notice is to inform you that your invoice number 1852706442 is OVERDUE. hxhv5.com expired on 2022-07-20* is SUSPENDED. Please send payment AS SOON AS POSSIBLE to avoid any TERMINATION of service to hxhv5.com. 
+
+Do take note that if no payment is made in the next 3 business days, your data will be purged and deleted. 
+
+TO RENEW hxhv5.com: 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0 
+
+Disclaimer notice: We can not be held legally liable for any claims, damages or suffering that you may incur due to the expiration of hxhv5.com. Any such damages may potentially include but are not exclusively limited to: fiduciary losses, deleted data without backups, loss of results in search rankings, lost appointments, undeliverable electronic mail and any other technical, business or service damage that you may incur. For more information please refer to section 13.c.3.f of our Terms of Service. 
+
+This is the final renewal message that we are legally required to transmit with regards to the expiration of hxhv5.com. 
+
+SECURE ONLINE RENEWAL: 
+https://webstationdomain.com/hxhv5.com/a/1658326892/v0
+
+All web services will be restored immediately on hxhv5.com upon confirmation of payment. We thank you for your urgent attention and continued business.','Web Station Domain','318-573-6662','留言','1658326896')
+
+[ 2022-07-20T22:32:06+08:00 ] 51.222.253.2 /robots.txt
+ERR: 无法加载控制器:Robots
+

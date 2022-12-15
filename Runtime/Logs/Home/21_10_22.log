@@ -1,0 +1,54 @@
+[ 2021-10-22T03:48:18+08:00 ] 185.191.171.38 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-22T04:34:27+08:00 ] 45.133.172.94 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('We are a group of scientists from the UK, we are engaged in software development and AI training in various fields of activity. 
+We managed to create an AI trading robot and train it to predict the rise or fall of the price of Bitcoin, so we got something great. 
+During testing, he earned us $ 167,000 from $ 500 by performing 15,790 trades in 5 days with 97% accuracy. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc76e5G&amp;sa=D&amp;88=84&amp;usg=AFQjCNFL5rEZgmQXC1gBkMY4vzA4kdArnQ 
+We have opened access to the system to everyone in order for our AI to constantly learn, the more people use the faster AI learns. 
+Thus, everything is in a big plus. 
+People use our software and earn from $ 30,000 per day due to this our AI learns and we also use it like other people to earn money. 
+This is an inexhaustible source of income, since the price of Bitcoin fluctuates every minute, every second, and we all earn on this. 
+To get started, you need to register, make a deposit to the balance of $ 500, launch our smart robot and take from $ 150,000 every 5 days. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc76e5G&amp;sa=D&amp;90=42&amp;usg=AFQjCNFL5rEZgmQXC1gBkMY4vzA4kdArnQ','MatthewLib','88281316765','??','1634848467')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('We are a group of scientists from the UK, we are engaged in software development and AI training in various fields of activity. 
+We managed to create an AI trading robot and train it to predict the rise or fall of the price of Bitcoin, so we got something great. 
+During testing, he earned us $ 167,000 from $ 500 by performing 15,790 trades in 5 days with 97% accuracy. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc76e5G&amp;sa=D&amp;88=84&amp;usg=AFQjCNFL5rEZgmQXC1gBkMY4vzA4kdArnQ 
+We have opened access to the system to everyone in order for our AI to constantly learn, the more people use the faster AI learns. 
+Thus, everything is in a big plus. 
+People use our software and earn from $ 30,000 per day due to this our AI learns and we also use it like other people to earn money. 
+This is an inexhaustible source of income, since the price of Bitcoin fluctuates every minute, every second, and we all earn on this. 
+To get started, you need to register, make a deposit to the balance of $ 500, launch our smart robot and take from $ 150,000 every 5 days. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc76e5G&amp;sa=D&amp;90=42&amp;usg=AFQjCNFL5rEZgmQXC1gBkMY4vzA4kdArnQ','MatthewLib','88281316765','??','1634848467')
+
+[ 2021-10-22T12:23:55+08:00 ] 125.77.172.218 /plus/erraddsave.php
+ERR: 无法加载控制器:Plus
+
+[ 2021-10-22T13:59:56+08:00 ] 47.97.192.46 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-10-22T14:43:30+08:00 ] 54.36.148.80 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-22T20:04:02+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-22T21:37:57+08:00 ] 54.36.148.174 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-22T22:17:51+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-10-22T22:17:51+08:00 ] 162.55.85.226 /sitemap.xml
+ERR: 无法加载控制器:Sitemap
+
+[ 2021-10-22T22:17:53+08:00 ] 162.55.85.226 /sitemap.xml
+ERR: 无法加载控制器:Sitemap
+
+[ 2021-10-22T23:28:37+08:00 ] 185.191.171.42 /robots.txt
+ERR: 无法加载控制器:Robots
+

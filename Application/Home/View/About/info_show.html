@@ -1,0 +1,43 @@
+<extend name="Public:home_base"/>
+<block name="title">{$one['title']}</block>
+<block name="keywords">{:systemCache('web_info.store_keyword')}</block>
+<block name="description">{:systemCache('web_info.store_desc')}</block>
+<block name="js_css"></block>
+<block name="content">
+		<include file="Public:Other_top_ad"/>
+		<div class="ny_cen">
+			<div class="left">
+				<div class="a1tit">
+					<!-- <h3>{:C('HOME_HELP')[$one['type']]}</h3> -->
+					<h3>关于我们</h3>
+					<p>专业为企业解决问题</p>
+				</div>
+				<div class="type">
+					<foreach name="select" item="vo">
+					<a <eq name="about_id" value="$vo['url']"> class="on"</eq> href="/help/{$vo['url']}.html">{$vo['title']}</a>
+					</foreach>
+				</div>
+				<div class="news">
+					<div class="a1tit" style="color: #fff;font-size: 24px;">联系方式</div>
+					<div style="background-color: #f2f2f2;">
+						<p style="line-height: 30px;font-size: 14px;margin-left: 10px;">服务咨询热线：</p>
+						<p style="line-height: 30px;font-size: 14px;margin-left: 10px;">QQ：</p>
+						<p style="line-height: 30px;font-size: 14px;margin-left: 10px;">公司地址：</p>
+					</div>
+					<!-- <ul>
+					<foreach name="about_news" item="v">
+						<li><a href="/info/{:idEncode($v['news_id'])}.html" target="_blank">{:getSubstr($v['title'],0,18)}</a></li>
+					</foreach>
+					</ul> -->
+				</div>
+			</div>
+			<div class="right">
+				<div class="tit">
+					<h3>{$one['title']}</h3>
+					<p>当前位置：首页 > {:C('HOME_HELP')[$one['type']]} > {$one['title']}</p>
+				</div>
+				<div class="cont">{$one['content']}</div>
+			</div>
+		</div>
+</block>
+<block name="js"></block>

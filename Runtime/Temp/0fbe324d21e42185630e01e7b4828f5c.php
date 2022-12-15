@@ -1,0 +1,3 @@
+<?php
+//000000000360a:4:{i:0;a:5:{s:2:"id";s:1:"1";s:9:"menu_name";s:1:"3";s:3:"pic";s:24:"/Public/img/news_tu1.jpg";s:3:"url";s:12:"javascript:;";s:4:"show";s:1:"1";}i:1;a:5:{s:2:"id";s:1:"2";s:9:"menu_name";s:1:"4";s:3:"pic";s:24:"/Public/img/news_tu2.jpg";s:3:"url";s:12:"javascript:;";s:4:"show";s:1:"1";}i:2;a:5:{s:2:"id";s:1:"3";s:9:"menu_name";s:1:"2";s:3:"pic";s:24:"/Public/img/news_tu3.jpg";s:3:"url";s:12:"javascript:;";s:4:"show";s:1:"1";}i:3;a:5:{s:2:"id";s:1:"4";s:9:"menu_name";s:1:"5";s:3:"pic";s:24:"/Public/img/news_tu4.jpg";s:3:"url";s:12:"javascript:;";s:4:"show";s:1:"1";}}
+?>

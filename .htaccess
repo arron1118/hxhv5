@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+  RewriteRule ^zp/r(\d+)t(\d+)c(\d+).html zhaopin/index/range/$1/tid/$2/city/$3
+  RewriteRule ^zp/r(\d+)t(\d+)c(\d+)/(\d+).html zhaopin/index/range/$1/tid/$2/city/$3/p/$4
+  RewriteRule ^zp/([^/]+).html zhaopin/info_show/id/$1
+  
+  RewriteRule ^zizhi/r(\d+)t(\d+)c(\d+).html zizhi/index/range/$1/tid/$2/city/$3
+  RewriteRule ^zizhi/r(\d+)t(\d+)c(\d+)/(\d+).html zizhi/index/range/$1/tid/$2/city/$3/p/$4
+  RewriteRule ^zizhi/([^/]+).html zizhi/info_show/id/$1
+  
+  RewriteRule ^resume/r(\d+)t(\d+)c(\d+).html resume/index/range/$1/tid/$2/city/$3
+  RewriteRule ^resume/r(\d+)t(\d+)c(\d+)/(\d+).html resume/index/range/$1/tid/$2/city/$3/p/$4
+  RewriteRule ^resume/([^/]+).html resume/info_show/id/$1
+  
+  RewriteRule ^news.html news/index
+  RewriteRule ^news/(\d+).html news/index/p/$1
+  RewriteRule ^news/([^/]+).html news/index/type/$1
+  RewriteRule ^news/([^/]+)/(\d+).html news/index/type/$1/p/$2
+  RewriteRule ^info/([^/]+).html news/info_show/id/$1
+  
+  RewriteRule ^help/([^/]+).html /about/info_show?id=$1
+  
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>

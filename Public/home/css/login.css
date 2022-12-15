@@ -1,0 +1,79 @@
+.A_logo{width:100%; height:120px;background: url(../images/logo_login.png) no-repeat center center; position: absolute;top: 0;left:0;}
+.A_logo a{width:560px; height:120px; display:block; margin: auto;}
+.A_login{width:500px; padding: 30px; /* height:100%; */ margin-left: -280px; position: absolute;top:120px;left:50%;background-color: rgba(255,255,255,0.8);}
+.A_login .tit{width:100%; height:45px;line-height: 45px; border-bottom: 1px solid #eee;font-size: 18px;text-align:left;float:left;}
+.A_login .ttb{width:100%; margin:20px 0;float:left;}
+.A_login .ssm{width:100%; height:45px;line-height:45px; text-align: center; border-bottom:1px solid #eee;float:left;}
+.A_login .ssm a{color:#1E9FFF;}
+.A_login .wxts{width:100%;line-height:30px;padding-top:15px;text-align:left;float:left;}
+.A_login .layui-tab-content{padding:10px 0 0 0;}
+
+/*未登陆发布信息*/
+.C_fbss{width:100%; height:auto; margin:auto; overflow:hidden;  background-color:#f8f8f8;}
+.C_fbssa{width:1200px; height:auto; min-height:600px; margin:auto; background-color:#fff; overflow:hidden;}
+.C_fbssa .stepa{width:950px; height:130px;  margin:35px auto 0 auto; position:relative;}
+.C_fbssa .stepa .bg{width:100%;height:10px;background-color:#eee; position: absolute;top:25px;margin-left:0;z-index:1; border-radius: 15px;}
+.C_fbssa .stepa .bgc{width:100%;height:10px;background-color:#3fba37; position: absolute;top:25px;margin-left:0;z-index: 2; border-radius: 15px;}
+.C_fbssa .stepa .list{width:100%; height:90px; position:absolute; top:2px; left:1px;z-index:3;}
+.C_fbssa .stepa .list li{width:25%; height:90px; float: left;}
+.C_fbssa .stepa .list li span{width:45px; height:45px;text-align: center;line-height: 45px;font-size: 18px; background-color: #eee;border-radius:50px; border: 5px solid #eee; display: block;margin: auto;}
+.C_fbssa .stepa .list li p{width:100%; height:45px; line-height:45px;font-size:16px;margin: auto;text-align: center;}
+.C_fbssa .stepa .list li.on span{background-color:#3fba37;color: #fff;}
+.C_fbssa .stepa .list li.on p{color:#3fba37;font-weight: bold;}
+
+.C_fbssa .step1{width:1020px; margin:0 0 50px 85px; height:auto; overflow:hidden;}
+.C_fbssa .step1 .ddsi{width:182px; text-align:center; float:left; margin:0 79px;}
+.C_fbssa .step1 .ddsi .tu{width:100%; height:100px; margin:auto; overflow:hidden;float:left;}
+.C_fbssa .step1 .ddsi .tubg1{background: url(../images/wfb_01.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi:hover .tubg1{background: url(../images/wfb_01a.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi .tubg2{background: url(../images/wfb_02.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi:hover .tubg2{background: url(../images/wfb_02a.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi .tubg3{background: url(../images/wfb_03.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi:hover .tubg3{background: url(../images/wfb_03a.png) no-repeat center center;}
+.C_fbssa .step1 .ddsi p.tit{width:100%; height:45px; line-height:45px; font-size: 22px; color:#3fba37; text-align:center;float:left;}
+.C_fbssa .step1 .ddsi p.lis{width:180px; height:35px; line-height:35px; font-size:16px; border-radius:5px; margin-top:9px; border:1px solid #E0E0E0; display:block;float:left;}
+.C_fbssa .step1 .ddsi p.lis span{font-size:13px;margin-left:5px;}
+.C_fbssa .step1 .ddsi p.lis:hover{background-color:#3fba37; border:1px  solid #3fba37; color:#fff;}
+.C_fbssa .step1 .ddsi p.lis:hover a{color: #fff;}
+.C_fbssa .step1 .ddsi p.lis:hover a:hover{text-decoration: underline;}
+
+.C_fbssa .step2{width:1000px; height:auto; min-height:400px; margin:50px 0 50px 150px; }
+.C_fbssa .step2 ul li{width:140px; height:37px; line-height:35px; padding-right:330px; text-indent:15px; position:relative; float:left;}
+.C_fbssa .step2 ul li p{width:137px; height:35px; line-height:35px;border:1px solid #fff; position:absolute; top:0; left:0;}
+.C_fbssa .step2 ul li p.on{border:1px solid #3fba37; border-right:1px solid #fff; z-index:2;}
+.C_fbssa .step2 ul li p a{display:block;}
+.C_fbssa .step2 ul li dl{width:330px; height:auto;border:1px solid #3fba37; position:absolute; top:0; right:0; z-index:1; display:none;}
+.C_fbssa .step2 ul li dl.b200{top:-200px;}
+.C_fbssa .step2 ul li dl dd{width:50%; height:35px; line-height:35px; float:left;}
+.C_fbssa .step3{width:950px; height:auto; margin:0 auto 50px auto; overflow:hidden;}
+.C_fbssa .step3 .layui-form-label{width:110px}
+.C_fbssa .step3 .layui-input-block{margin-left:140px}
+.C_fbssa .step3 label span{color: #f00;font-size: 16px;}
+.C_fbssa .step4{width:400px; height:500px; margin: auto; background: url(../images/success.png) no-repeat center 50px; overflow: hidden;}
+.C_fbssa .step4 .ts{width:100%; height:35px; line-height: 35px; font-size: 30px;text-align:center;float:left;margin-top: 240px;color:#2da925;}
+.C_fbssa .step4 .btn{width:180px; height:35px; line-height: 35px; margin-top: 35px;border-radius:15px;; text-align: center;border:1px solid #E0E0E0;float:left; display: block;}
+.C_fbssa .step4 .btn:hover{background-color:#3fba37; border:1px  solid #3fba37; color:#fff;}
+.C_fbssa .step4 .sm{width:100%; line-height: 30px; font-size:16px; margin-top:20px;text-align: center;float:left;}
+.C_fbssa .step4 .sm span{color: #f00;}
+
+.C_fbssa .step5{width:1000px; margin:0 auto 50px auto; overflow: hidden;}
+.C_fbssa .step5 .left{width:600px; float:left; padding-right: 50px; border-right: 1px solid #eee;}
+.C_fbssa .step5 .layui-form-label{width:110px}
+.C_fbssa .step5 .layui-input-block{margin-left:140px}
+.C_fbssa .step5 label span{color: #f00;font-size: 16px;}
+.C_fbssa .step5 .right{width:300px; margin-top: 50px; float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

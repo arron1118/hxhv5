@@ -1,0 +1,73 @@
+<extend name="Public:base"/>
+<block name="title">编辑菜单--后台管理</block>
+<block name="head_js_css"></block>
+<block name="body">
+<body class="childrenBody">
+	<form class="layui-form" method="post">
+		<div class="layui-form-item">
+			<label class="layui-form-label">菜单名：</label>
+			<div class="layui-input-inline">
+				<input class="layui-input"  type="text" name="name" value='{$Think.get.name}' placeholder="">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-inline">		
+				<label class="layui-form-label">连接：</label>
+				<div class="layui-input-inline">
+			<if condition="$Think.get.id gt 0">
+				<php>$admin_nav = M('admin_nav');$one_name = $admin_nav->where('id=%d',I('id'))->find();</php>
+				<input class="layui-input" lay-verify="required" type="text" name="mca" value="{$one_name['mca']}">
+				<else/>
+				<input class="layui-input" lay-verify="required" type="text" name="mca" value="">
+			</if>
+				</div>
+			</div>
+			输入模块/控制器/方法即可 例如 Admin/Nav/index
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-inline">		
+				<label class="layui-form-label">图标：</label>
+				<div class="layui-input-inline">
+				<if condition="$Think.get.id gt 0">
+					<input class="layui-input" type="text" name="ico" value="{$one_name['ico']}">
+					<else/>
+					<input class="layui-input" type="text" name="ico" value="">
+				</if>
+				</div>
+			</div>
+			layui-icon图标 输入对元素加上图标对应的 Unicode 字符 如：<i class="layui-icon">&#xe60c;</i> 
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<input type="hidden" name="id" value='<if condition="$Think.get.id gt 0">{$Think.get.id}<else/>0</if>'>
+				<button class="layui-btn" lay-submit="" lay-filter="submit">立即提交</button>
+				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		    </div>
+		</div>
+	</form>
+	<script type="text/javascript" src="/Public/admin/layui/layui.js"></script>
+	<script type="text/javascript">
+		layui.config({
+			base : "/Public/admin/js/"
+		}).use(['form','layer','jquery'],function(){
+			var form = layui.form(),
+				layer = parent.layer === undefined ? layui.layer : parent.layer,
+				laypage = layui.laypage,
+				$ = layui.jquery;
+			form.on("submit(submit)",function(data){
+				var index = top.layer.msg('数据提交中，请稍候',{icon: 16,time:false,shade:0.8});
+				setTimeout(function(){
+					$.post("{:U('Nav/edit')}",data.field,function(data){
+						top.layer.close(index);
+						top.layer.msg(data);
+						layer.closeAll("iframe");
+						//刷新父页面
+						parent.location.reload();
+					})
+				},1000);
+				return false;
+			})
+		})
+	</script>
+</body>
+</block>

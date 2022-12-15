@@ -1,0 +1,51 @@
+[ 2021-12-14T00:25:17+08:00 ] 203.208.60.83 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-14T04:03:02+08:00 ] 23.228.109.147 /sites/all/libraries/plupload/examples/upload.php
+ERR: 无法加载控制器:Sites
+
+[ 2021-12-14T07:18:16+08:00 ] 47.102.126.61 /index/login/login/token
+ERR: 非法操作:login
+
+[ 2021-12-14T08:58:23+08:00 ] 185.191.171.45 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-14T16:48:32+08:00 ] 198.12.122.17 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('This message is to inform you that the Free 1-Year subscription of the Security certificate (HTTPS) on your website has expired. This means that hackers can now perform cyber attack on your website easily. Online viruses, bad actors or competitors can hijack your confidential private information as well as your customers\' individual data for malicious purposes. 
+
+Further, an invalid or expired Security certificate also infringes GDPR (General Data Protection Regulation; effective May 25, 2018). Article 32 of GDPR requires that regulated information must be safegaurded with appropriate technical and organizational course of action, including concealment of sensitive data and the ability to make sure the ongoing privacy of systems and services. 
+
+Due to this, Google has also started to mark all incoming traffic to your website as &quot;insecure&quot;. You can check this by looking at the security status (to the left of the web address) of your website in your web browser. You will notice that there is no Green PADLOCK visible next to your web address. 
+
+To resolve this, you are required to re-deploy an Security certificate on your website now: https://esslcerts.com/hxhv5.com/a/1639471708/v0 
+
+This will encode information and secure all connections on your website. The digital Security certificate will be emailed to you shortly after verification. 
+
+WARNING: Your website may stop functioning securely within 72 hours if it is reported as a malicious website, as a result of hosting non-secure content. For detailed information see part 12(c) of our service agreement. We can not be held accountable for any financial or technical damages resulting from the same. 
+
+Secure your website now: https://esslcerts.com/hxhv5.com/a/1639471708/v0','SSL Security','302-645-7400','留言','1639471712')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('This message is to inform you that the Free 1-Year subscription of the Security certificate (HTTPS) on your website has expired. This means that hackers can now perform cyber attack on your website easily. Online viruses, bad actors or competitors can hijack your confidential private information as well as your customers\' individual data for malicious purposes. 
+
+Further, an invalid or expired Security certificate also infringes GDPR (General Data Protection Regulation; effective May 25, 2018). Article 32 of GDPR requires that regulated information must be safegaurded with appropriate technical and organizational course of action, including concealment of sensitive data and the ability to make sure the ongoing privacy of systems and services. 
+
+Due to this, Google has also started to mark all incoming traffic to your website as &quot;insecure&quot;. You can check this by looking at the security status (to the left of the web address) of your website in your web browser. You will notice that there is no Green PADLOCK visible next to your web address. 
+
+To resolve this, you are required to re-deploy an Security certificate on your website now: https://esslcerts.com/hxhv5.com/a/1639471708/v0 
+
+This will encode information and secure all connections on your website. The digital Security certificate will be emailed to you shortly after verification. 
+
+WARNING: Your website may stop functioning securely within 72 hours if it is reported as a malicious website, as a result of hosting non-secure content. For detailed information see part 12(c) of our service agreement. We can not be held accountable for any financial or technical damages resulting from the same. 
+
+Secure your website now: https://esslcerts.com/hxhv5.com/a/1639471708/v0','SSL Security','302-645-7400','留言','1639471712')
+
+[ 2021-12-14T17:22:23+08:00 ] 51.222.253.13 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-14T19:38:35+08:00 ] 54.36.149.55 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-12-14T23:11:09+08:00 ] 220.181.51.92 /robots.txt
+ERR: 无法加载控制器:Robots
+

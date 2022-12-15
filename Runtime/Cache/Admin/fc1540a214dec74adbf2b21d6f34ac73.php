@@ -1,0 +1,35 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页--后台管理</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/Public/admin/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_tnyc012u2rlwstt9.css" media="all" />
+	<link rel="stylesheet" href="/Public/admin/css/main.css" media="all" />
+</head>
+<body class="childrenBody">
+	<div class="row">
+		<div class="sysNotice col" style="width: 100%;">
+			<blockquote class="layui-elem-quote title">系统基本参数</blockquote>
+			<table class="layui-table">
+				<colgroup>
+					<col width="200">
+					<col>
+				</colgroup>
+				<tbody>
+					<?php if(is_array($server_info)): foreach($server_info as $key=>$vo): ?><tr>
+						<td style="text-align:right;"><?php echo ($key); ?>：</td>
+						<td><?php echo ($vo); ?></td>
+					</tr><?php endforeach; endif; ?>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

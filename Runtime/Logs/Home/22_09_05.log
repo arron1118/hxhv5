@@ -1,0 +1,94 @@
+[ 2022-09-05T01:17:02+08:00 ] 103.68.62.69 /manage/kindeditor/asp.net/upload_json.ashx/c.php
+ERR: 无法加载控制器:Manage
+
+[ 2022-09-05T07:09:49+08:00 ] 20.239.28.104 /data/admin/allowurl.txt
+ERR: 无法加载控制器:Data
+
+[ 2022-09-05T12:08:41+08:00 ] 54.36.148.154 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T12:47:08+08:00 ] 185.83.144.103 /.aws/.credentials.php
+ERR: 无法加载控制器:.aws
+
+[ 2022-09-05T13:21:39+08:00 ] 20.24.118.117 /plus/mytag_js.php
+ERR: 无法加载控制器:Plus
+
+[ 2022-09-05T13:21:39+08:00 ] 20.24.118.117 /plus/download.php
+ERR: 无法加载控制器:Plus
+
+[ 2022-09-05T13:21:39+08:00 ] 20.24.118.117 /plus/carbuyaction.php
+ERR: 无法加载控制器:Plus
+
+[ 2022-09-05T13:21:39+08:00 ] 20.24.118.117 /data/admin/allowurl.txt
+ERR: 无法加载控制器:Data
+
+[ 2022-09-05T13:21:39+08:00 ] 20.24.118.117 /data/admin/ver.txt
+ERR: 无法加载控制器:Data
+
+[ 2022-09-05T14:06:34+08:00 ] 51.222.253.18 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T14:57:16+08:00 ] 185.191.171.17 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T16:47:39+08:00 ] 198.251.94.162 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('TO RENEW hxhv5.com (Expires on 2022-09-05): 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0 
+
+This alert is to inform you that your outstanding invoice number 129186671 is OVERDUE. hxhv5.com due for renewal 2022-09-05* is SUSPENDED. Please complete payment AS SOON AS POSSIBLE to avoid any TERMINATION of service to hxhv5.com. 
+
+Please note that if no payment is made in the next 3 business days, your data will be purged and deleted. 
+
+TO RENEW hxhv5.com: 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0 
+
+Disclaimer notice: We can not be held legally liable for any claims, damage or losses that you may incur because of the expiration of hxhv5.com. Any such damages may include but are not exclusively limited to: monetary losses, deleted data without backups, loss of results in search rankings, missed appointments, undeliverable email and any other service, business or technical damage that you might incur. For further reference please refer section 12.d.7.c of our User Agreement. 
+
+This is the final notice that we are legally required to communicate with reference to the expiration of hxhv5.com. 
+
+SECURE ONLINE RENEWAL: 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0
+
+All web services will be restored immediately on hxhv5.com upon confirmation of payment. We thank you for your urgent attention and continued business.','DC Reregistration','318-573-6662','留言','1662367659')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('TO RENEW hxhv5.com (Expires on 2022-09-05): 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0 
+
+This alert is to inform you that your outstanding invoice number 129186671 is OVERDUE. hxhv5.com due for renewal 2022-09-05* is SUSPENDED. Please complete payment AS SOON AS POSSIBLE to avoid any TERMINATION of service to hxhv5.com. 
+
+Please note that if no payment is made in the next 3 business days, your data will be purged and deleted. 
+
+TO RENEW hxhv5.com: 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0 
+
+Disclaimer notice: We can not be held legally liable for any claims, damage or losses that you may incur because of the expiration of hxhv5.com. Any such damages may include but are not exclusively limited to: monetary losses, deleted data without backups, loss of results in search rankings, missed appointments, undeliverable email and any other service, business or technical damage that you might incur. For further reference please refer section 12.d.7.c of our User Agreement. 
+
+This is the final notice that we are legally required to communicate with reference to the expiration of hxhv5.com. 
+
+SECURE ONLINE RENEWAL: 
+https://dcreregistration.com/hxhv5.com/a/1662367656/v0
+
+All web services will be restored immediately on hxhv5.com upon confirmation of payment. We thank you for your urgent attention and continued business.','DC Reregistration','318-573-6662','留言','1662367659')
+
+[ 2022-09-05T18:14:03+08:00 ] 220.181.51.118 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T19:10:25+08:00 ] 149.56.150.156 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T19:10:26+08:00 ] 149.56.150.156 /sitemap.xml
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-09-05T19:10:38+08:00 ] 149.56.150.156 /ads.txt
+ERR: 无法加载控制器:Ads
+
+[ 2022-09-05T22:30:38+08:00 ] 194.38.20.161 /wp-content/plugins/super-interactive-maps/sim-wp-admin/pages/manage-maps.php
+ERR: 无法加载控制器:Wp-content
+
+[ 2022-09-05T22:46:13+08:00 ] 66.249.68.14 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-09-05T23:26:19+08:00 ] 192.99.46.73 /genmay.com
+ERR: 无法加载控制器:Genmay
+

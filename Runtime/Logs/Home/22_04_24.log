@@ -1,0 +1,150 @@
+[ 2022-04-24T01:48:53+08:00 ] 185.191.171.9 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T02:24:48+08:00 ] 101.132.113.231 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2022-04-24T02:24:48+08:00 ] 101.132.113.231 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T02:24:49+08:00 ] 101.132.113.231 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2022-04-24T02:24:49+08:00 ] 101.132.113.231 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2022-04-24T02:24:49+08:00 ] 101.132.113.231 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2022-04-24T02:24:49+08:00 ] 101.132.113.231 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2022-04-24T02:24:49+08:00 ] 101.132.113.231 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2022-04-24T11:12:03+08:00 ] 27.115.124.99 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T11:12:04+08:00 ] 27.115.124.74 /sitemap.xml
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-04-24T11:13:48+08:00 ] 207.46.13.231 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T11:46:15+08:00 ] 185.191.171.7 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T13:45:17+08:00 ] 84.17.49.107 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Hеllo аll, guуѕ! I know, mу mеssаge may bе tоо ѕрeсіfiс,
+Вut mу siѕter fоund nіce mаn here and theу mаrrіеd, so hоw about me?! :)
+Ι am 23 уears оld, Ιѕabella, from Ukraіne, I knоw Εnglish and Gеrman lаnguаgеѕ alѕо
+Аnd... I hаve ѕресific dіseаse, named nуmphomanіa. Ԝho know what iѕ thiѕ, cаn underѕtаnd mе (bettеr tо sаy іt іmmedіаtеly)
+Ah уes, I сооk very tаstуǃ and Ι love not onlу сооk ;))
+Im real girl, nоt prоstitute, аnd lооking for ѕeriоus аnd hоt rеlаtіonѕhip...
+Anуway, уou саn find my рrоfile herе: http://javerwei.ga/user/8569/','IsabellaEi','+380 2705323577','??','1650779117')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('Hеllo аll, guуѕ! I know, mу mеssаge may bе tоо ѕрeсіfiс,
+Вut mу siѕter fоund nіce mаn here and theу mаrrіеd, so hоw about me?! :)
+Ι am 23 уears оld, Ιѕabella, from Ukraіne, I knоw Εnglish and Gеrman lаnguаgеѕ alѕо
+Аnd... I hаve ѕресific dіseаse, named nуmphomanіa. Ԝho know what iѕ thiѕ, cаn underѕtаnd mе (bettеr tо sаy іt іmmedіаtеly)
+Ah уes, I сооk very tаstуǃ and Ι love not onlу сооk ;))
+Im real girl, nоt prоstitute, аnd lооking for ѕeriоus аnd hоt rеlаtіonѕhip...
+Anуway, уou саn find my рrоfile herе: http://javerwei.ga/user/8569/','IsabellaEi','+380 2705323577','??','1650779117')
+
+[ 2022-04-24T14:02:08+08:00 ] 114.217.32.218 /css/album.css
+ERR: 无法加载控制器:Css
+
+[ 2022-04-24T14:02:08+08:00 ] 114.217.32.218 /data/admin/allowurl.txt
+ERR: 无法加载控制器:Data
+
+[ 2022-04-24T14:02:08+08:00 ] 114.217.32.218 /xxxss
+ERR: 无法加载控制器:Xxxss
+
+[ 2022-04-24T15:18:13+08:00 ] 124.248.67.33 /data/admin/allowurl.txt
+ERR: 无法加载控制器:Data
+
+[ 2022-04-24T15:48:06+08:00 ] 114.217.32.218 /e/data/js/ajax.js
+ERR: 无法加载控制器:E
+
+[ 2022-04-24T19:34:34+08:00 ] 51.222.253.20 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-04-24T19:51:00+08:00 ] 112.114.104.211 /wwwroot.rar
+ERR: 无法加载控制器:Wwwroot
+
+[ 2022-04-24T19:51:00+08:00 ] 112.114.104.211 /wwwroot.zip
+ERR: 无法加载控制器:Wwwroot
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /�½��ļ���.rar
+ERR: 无法加载控制器:�½��ļ���
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /�½��ļ���.zip
+ERR: 无法加载控制器:�½��ļ���
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www.rar
+ERR: 无法加载控制器:Www
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www.zip
+ERR: 无法加载控制器:Www
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /web.rar
+ERR: 无法加载控制器:Web
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /web.zip
+ERR: 无法加载控制器:Web
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www.hxhv5.com.rar
+ERR: 无法加载控制器:Www.hxhv5.com
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www.hxhv5.com.zip
+ERR: 无法加载控制器:Www.hxhv5.com
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www_hxhv5_com.rar
+ERR: 无法加载控制器:Www_hxhv5_com
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /www_hxhv5_com.zip
+ERR: 无法加载控制器:Www_hxhv5_com
+
+[ 2022-04-24T19:51:01+08:00 ] 112.114.104.211 /wwwhxhv5com.rar
+ERR: 无法加载控制器:Wwwhxhv5com
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /wwwhxhv5com.zip
+ERR: 无法加载控制器:Wwwhxhv5com
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /hxhv5.com.rar
+ERR: 无法加载控制器:Hxhv5.com
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /hxhv5.com.zip
+ERR: 无法加载控制器:Hxhv5.com
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /hxhv5.rar
+ERR: 无法加载控制器:Hxhv5
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /hxhv5.zip
+ERR: 无法加载控制器:Hxhv5
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /bbs.rar
+ERR: 无法加载控制器:Bbs
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /bbs.zip
+ERR: 无法加载控制器:Bbs
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /www.root.rar
+ERR: 无法加载控制器:Www.root
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /www.root.zip
+ERR: 无法加载控制器:Www.root
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /123.rar
+ERR: 无法加载控制器:123
+
+[ 2022-04-24T19:51:02+08:00 ] 112.114.104.211 /123.zip
+ERR: 无法加载控制器:123
+
+[ 2022-04-24T19:51:03+08:00 ] 112.114.104.211 /bak.rar
+ERR: 无法加载控制器:Bak
+
+[ 2022-04-24T19:51:03+08:00 ] 112.114.104.211 /bak.zip
+ERR: 无法加载控制器:Bak
+

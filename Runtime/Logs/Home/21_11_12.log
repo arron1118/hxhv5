@@ -1,0 +1,27 @@
+[ 2021-11-12T00:14:29+08:00 ] 54.36.148.238 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-12T09:16:38+08:00 ] 183.234.187.222 /
+ERR: SQLSTATE[HY000] [1040] Too many connections
+
+[ 2021-11-12T09:43:18+08:00 ] 20.85.224.59 /.env
+ERR: SQLSTATE[HY000] [1040] Too many connections
+
+[ 2021-11-12T09:43:19+08:00 ] 20.85.224.59 /.env
+ERR: SQLSTATE[HY000] [1040] Too many connections
+
+[ 2021-11-12T11:20:09+08:00 ] 185.191.171.9 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-12T15:41:09+08:00 ] 203.208.60.127 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-12T16:50:11+08:00 ] 203.208.60.76 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-12T19:15:40+08:00 ] 157.55.39.119 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2021-11-12T20:11:02+08:00 ] 183.134.74.116 /data/admin/allowurl.txt
+ERR: 无法加载控制器:Data
+

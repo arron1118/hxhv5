@@ -1,0 +1,48 @@
+[ 2022-10-28T00:34:25+08:00 ] 162.55.85.226 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-10-28T00:34:28+08:00 ] 162.55.85.226 /sitemap
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-10-28T00:34:38+08:00 ] 162.55.85.226 /sitemap.txt
+ERR: 无法加载控制器:Sitemap
+
+[ 2022-10-28T05:19:33+08:00 ] 147.78.47.249 /wp-includes/wlwmanifest.xml
+ERR: 无法加载控制器:Wp-includes
+
+[ 2022-10-28T05:19:33+08:00 ] 147.78.47.249 /_ignition/health-check/
+ERR: 无法加载控制器:_ignition
+
+[ 2022-10-28T05:19:36+08:00 ] 147.78.47.249 /public/_ignition/health-check/
+ERR: 无法加载控制器:Public
+
+[ 2022-10-28T08:15:00+08:00 ] 103.68.62.69 /console/login.aspx
+ERR: 无法加载控制器:Console
+
+[ 2022-10-28T08:25:53+08:00 ] 54.36.148.227 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-10-28T12:33:19+08:00 ] 182.61.34.61 /images/default/setday.js
+ERR: 无法加载控制器:Images
+
+[ 2022-10-28T13:13:12+08:00 ] 54.36.148.48 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-10-28T20:15:10+08:00 ] 5.227.27.149 /index.php/Feedback/add
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('&lt;a href=https://skyrevery.com/private-jets/hawker-750/&gt;Private jet Hawker 750 price&lt;/a&gt;        -  more information on our website &lt;a href=https://skyrevery.com&gt;skyrevery.com&lt;/a&gt; 
+&lt;a href=https://skyrevery.com/&gt;Private jet rental&lt;/a&gt; at SkyRevery allows you to use such valuable resource as time most efficiently. 
+You are the one who decides where and when your private jet will fly. It is possible to organize and perform a flight between any two civil airports worldwide round the clock. In airports, private jet passengers use special VIP terminals where airport formalities are minimized, and all handling is really fast – you come just 30 minutes before  the estimated time of the departure of the rented private jet. 
+When you need &lt;a href=https://skyrevery.com/&gt;private jet charter&lt;/a&gt; now, we can organise your flight with departure in 3 hours from confirmation.','skyreveryVof','86468999279','??','1666959310')
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `hbv5_feedback` (`content`,`username`,`mobile`,`cate_name`,`add_time`) VALUES ('&lt;a href=https://skyrevery.com/private-jets/hawker-750/&gt;Private jet Hawker 750 price&lt;/a&gt;        -  more information on our website &lt;a href=https://skyrevery.com&gt;skyrevery.com&lt;/a&gt; 
+&lt;a href=https://skyrevery.com/&gt;Private jet rental&lt;/a&gt; at SkyRevery allows you to use such valuable resource as time most efficiently. 
+You are the one who decides where and when your private jet will fly. It is possible to organize and perform a flight between any two civil airports worldwide round the clock. In airports, private jet passengers use special VIP terminals where airport formalities are minimized, and all handling is really fast – you come just 30 minutes before  the estimated time of the departure of the rented private jet. 
+When you need &lt;a href=https://skyrevery.com/&gt;private jet charter&lt;/a&gt; now, we can organise your flight with departure in 3 hours from confirmation.','skyreveryVof','86468999279','??','1666959310')
+
+[ 2022-10-28T21:15:01+08:00 ] 51.222.253.17 /robots.txt
+ERR: 无法加载控制器:Robots
+
+[ 2022-10-28T21:54:37+08:00 ] 43.228.126.230 /manager/index.aspx
+ERR: 无法加载控制器:Manager
+
